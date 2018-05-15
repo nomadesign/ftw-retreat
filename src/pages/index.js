@@ -3,11 +3,14 @@ import SubscribeForm from 'components/SubscribeForm';
 import jamaica from 'images/jamaica-1.jpg';
 
 const IndexPage = () => (
-  <div>
-    <h1>A retreat for accomplished women in a beautiful environment.</h1>
-    <SubscribeForm />
-    <img src={jamaica} />
-  </div>
+  <main className='container shape-container'>
+    <div className='row'>
+      <div className='col-1'>1</div>
+      <div className='col-10'>
+        <SubscribeForm />
+      </div>
+    </div>
+  </main>
 );
 
 export default IndexPage;

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from 'components/Header';
-import './style.scss';
+import '../assets/css/style.scss';
 
 const Layout = ({ children, data }) => (
   <div>
