@@ -1,0 +1,21 @@
+.history{
+  margin-bottom: $baseline * 6;
+
+  .title-1{
+    color: $color-light;
+    margin-bottom: $baseline * 2;
+    strong{
+      font-weight: normal;
+      color: $color-title;
+    }
+  }
+  .subhead-2{
+    position: relative;
+    margin-bottom: $baseline * 5;
+  }
+}
+  .history-signature{
+    position: absolute;
+    bottom: -24px;
+    left: -12px;
+  }

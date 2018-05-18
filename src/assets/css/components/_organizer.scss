@@ -1,0 +1,18 @@
+.organizer{
+  background-color: $background-color-darker;
+  padding-bottom: $baseline * 11;
+
+  hr{
+    margin-bottom: $baseline * 11;
+  }
+}
+
+  .organizer-card{
+    /* base: */
+    background: #FFFFFF;
+    box-shadow: $box-shadow;
+    padding: $baseline * 4 $baseline * 5;
+    .subhead-1{
+      margin-bottom: $baseline * 2;
+    }
+  }

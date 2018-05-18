@@ -1,0 +1,11 @@
+.hero{
+  padding-top: $baseline * 8;
+  padding-bottom:  $baseline * 18;
+
+  .headline{
+    margin-bottom: $baseline * 12;
+  }
+  .subhead-2 {
+    margin-bottom: $baseline;
+  }
+}

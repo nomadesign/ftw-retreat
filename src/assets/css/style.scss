@@ -1,22 +1,110 @@
-// grid
+// Const
 $width: 96%;
 $gutter: 4%;
+$baseline: 8px;
 $breakpoint-small: 33.75em; // 540px
 $breakpoint-med: 45em; // 720px
-$breakpoint-large: 60em; // 940px
+$breakpoint-large: 62em; // 940px
 
+// Helpers
+@import "colors";
 @import "reset";
 @import "helpers";
 @import "fonts";
 @import "grid";
-@import "colors";
 
-
+// General Style
 body {
-  /* background: url(../assets/images/jamaica-1.jpg); */
+  $__body-border: 40px;
+  //background: url(../assets/images/jamaica-1.jpg);
+  background-color: $background-color;
+  font-family: circular,sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: $color-title;
+  border: $__body-border solid $background-color-darker;
+  padding-top: $baseline * 8 - $__body-border;
 }
 
 h1,
 a {
   color: blue;
 }
+
+.headline {
+  font-size: 56px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 74px;
+}
+
+.title-1 {
+  font-size: 25px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 37px;
+}
+
+.title-2 {
+  font-size: 23px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.subhead-1 {
+  font-size: 19px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.subhead-2 {
+  @extend .subhead-1;
+  color: $color-body;
+}
+
+.body-1 {
+  font-size: 17px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.body-2 {
+  @extend .body-1;
+  color: $color-body;
+}
+
+.caption{
+
+}
+
+.button{
+
+}
+
+hr{
+  height: 1px;
+  border:0;
+  margin: 0;
+  padding: 0;
+  background: $color-divider-light;
+}
+
+
+// Components
+@import "components/header";
+@import "components/hero";
+@import "components/history";
+@import "components/testimonial";
+@import "components/organizer";
+@import "components/subscribe";
+@import "components/footer";

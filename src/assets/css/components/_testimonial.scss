@@ -1,0 +1,16 @@
+.testimonial{
+  background-image: linear-gradient(-179deg, $background-color 0%, $background-color-darker 100%);
+  padding: $baseline * 12;
+
+  .title-1{
+    margin-bottom: $baseline * 6;
+  }
+
+  .body-2{
+    margin-bottom: $baseline * 3;
+  }
+
+  .media{
+    align-items: center;
+  }
+}
