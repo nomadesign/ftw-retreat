@@ -7,12 +7,30 @@
   }
 }
 
-  .organizer-card{
-    /* base: */
-    background: #FFFFFF;
-    box-shadow: $box-shadow;
-    padding: $baseline * 4 $baseline * 5;
-    .subhead-1{
-      margin-bottom: $baseline * 2;
+  .organizer-wrapper{
+    position: relative;
+    img{
+      position: absolute;
     }
   }
+    .organizer-card{
+      /* base: */
+      position: relative;
+      z-index: 1;
+      background: #FFFFFF;
+      box-shadow: $box-shadow;
+      padding: $baseline * 4 $baseline * 5;
+      .subhead-1{
+        margin-bottom: $baseline * 2;
+      }
+    }
+    .organizer-shape{
+      left: 45%;
+      top:19%;
+      width: 24.68%;
+    }
+    .organizer-kuan{
+      left: 59%;
+      top:12%;
+      width: 32%;
+    }

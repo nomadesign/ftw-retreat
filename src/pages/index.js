@@ -2,8 +2,11 @@ import React from 'react';
 import SubscribeForm from 'components/SubscribeForm';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
+import imgHeroShape from 'images/hero-shape.svg';
 import imgSignature from 'images/history-signature.svg';
 import imgAvatarBecca from 'images/avatar-becca.png';
+import imgOrganizerShape from 'images/organizer-shape.svg';
+import imgOrganizerKuan from 'images/organizer-kuan.jpg';
 
 const IndexPage = () => (
   <div>
@@ -39,17 +42,16 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <br /><br /><br />
-            <br /><br /><br />
-
-
       <div className='row'>
 
         <div className='col-5'>
-          <img src={imgHero01} />
+          <img src={imgHero01} className='hidden-sm' />
         </div>
         <div className='col-7'>
-          <img src={imgHero02} />
+          <div className='hero-shape-wrapper'>
+            <img src={imgHeroShape} className='hero-shape' />
+            <img src={imgHero02} />
+          </div>
         </div>
 
       </div>
@@ -154,19 +156,23 @@ const IndexPage = () => (
     </div>
 
     <div className='container'>
-      <div className='row'>
+      <div className='row organizer-wrapper'>
         <div className='col-1'></div>
         <div className='col-7'>
-          <div className='organizer-card'>
-            <h3 className='subhead-1'>About the organizer</h3>
-            <p className='body-2'>
-              Kuan Luo was launched in 2016, to bridge the gap between the once
-              a year connections, empowerment and inspiration that happen at our
-              conference. The Yellow Collective was built to create similar
-              experiences that happen at the conference on a daily basis to all
-              members.
-            </p>
-          </div>
+
+            <div className='organizer-card'>
+              <h3 className='subhead-1'>About the organizer</h3>
+              <p className='body-2'>
+                Kuan Luo was launched in 2016, to bridge the gap between the once
+                a year connections, empowerment and inspiration that happen at our
+                conference. The Yellow Collective was built to create similar
+                experiences that happen at the conference on a daily basis to all
+                members.
+              </p>
+            </div>
+
+            <img src={imgOrganizerKuan} className='organizer-kuan' />
+            <img src={imgOrganizerShape} className='organizer-shape' />
         </div>
       </div>
     </div>

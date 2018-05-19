@@ -1,6 +1,6 @@
 // Const
 $width: 96%;
-$gutter: 4%;
+$gutter: 2%;
 $baseline: 8px;
 $breakpoint-small: 33.75em; // 540px
 $breakpoint-med: 45em; // 720px
@@ -29,8 +29,11 @@ body {
   margin: 0;
   position: relative;
   color: $color-title;
-  border: $__body-border solid $background-color-darker;
   padding-top: $baseline * 8 - $__body-border;
+
+  @media only screen and (min-width: $breakpoint-small) {
+    border: $__body-border solid $background-color-darker;
+  }
 }
 
 h1,
@@ -39,10 +42,15 @@ a {
 }
 
 .headline {
-  font-size: 56px;
+  font-size: 46px;
   color: $color-title;
   letter-spacing: 0;
-  line-height: 74px;
+
+
+  @media only screen and (min-width: $breakpoint-small) {
+    font-size: 56px;
+    line-height: 74px;
+  }
 }
 
 .title-1 {
@@ -97,6 +105,13 @@ hr{
   margin: 0;
   padding: 0;
   background: $color-divider-light;
+}
+
+@media only screen and (min-width: $breakpoint-small) {
+}
+
+@media only screen and (min-width: $breakpoint-large) {
+
 }
 
 

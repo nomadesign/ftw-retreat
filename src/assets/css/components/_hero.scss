@@ -9,3 +9,16 @@
     margin-bottom: $baseline;
   }
 }
+
+.hero-shape-wrapper {
+  position: relative;
+  img{
+    position: relative;
+  }
+  img.hero-shape{
+    position: absolute;
+    left: 0;
+    transform: translate(-18%, 24%);
+    width: 70%;
+  }
+}
