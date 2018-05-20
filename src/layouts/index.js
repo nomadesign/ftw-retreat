@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import Header from 'components/Header';
 import imgHero01 from 'images/hero-01.jpg';
+import imgFavicon from 'images/favicon.png';
 import '../assets/css/style.scss';
 
 const Layout = ({ children, data }) => (
@@ -24,6 +25,7 @@ const Layout = ({ children, data }) => (
       <meta property="og:image" content={imgHero01} />
       <meta property="og:description" content={data.site.siteMetadata.description} />
       <meta property="og:site_name" content={data.site.siteMetadata.title} />
+      <link rel="icon" type="image/png" href={imgFavicon} />
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <main>{children()}</main>
