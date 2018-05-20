@@ -1,0 +1,20 @@
+.header {
+  padding:$baseline * 4 0;
+
+  img{
+    margin-bottom: $baseline * 2;
+  }
+
+  @media only screen and (min-width: $breakpoint-small) {
+    padding: 0;
+    margin-bottom: $baseline * 8;
+    height: $baseline * 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      margin: 0;
+    }
+  }
+}

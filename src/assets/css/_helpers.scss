@@ -97,3 +97,16 @@
 .hidden-sm {
   display: none;
 }
+
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-figure {
+  margin-right: $baseline * 2;
+}
+
+.media-body {
+  flex: 1;
+}

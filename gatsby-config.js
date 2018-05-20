@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'For the Women Retreats',
+    title: 'For the Women Retreat',
     description: 'A retreat for accomplished women in a beautiful environment.',
     keywords: 'retreat, women'
   },
