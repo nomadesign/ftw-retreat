@@ -28,6 +28,10 @@
     line-height: 32px;
     width: 100%;
     flex: 1;
+
+    &:disabled{
+      color: $color-placeholder;
+    }
   }
   button{
     -webkit-appearance: none;
@@ -43,6 +47,9 @@
     display: block;
     background: $brand-color-1 url(../images/icon-arrow-right.svg) 50% 50% no-repeat;
 
+    &:disabled{
+      background-color: lighten($brand-color-1, 24%);
+    }
     &:hover{
       background-color: darken($brand-color-1, 2%);
     }
@@ -50,4 +57,14 @@
       background-color: darken($brand-color-1, 5%);
     }
   }
+}
+
+.subscribe-form-error{
+  padding: $baseline  0;
+}
+
+.subscribe-form-success{
+  @extend .subhead-1;
+  height: $baseline * 7;
+  line-height: $baseline * 7;
 }

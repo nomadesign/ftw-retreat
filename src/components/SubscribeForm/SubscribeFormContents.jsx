@@ -14,9 +14,8 @@ const SubscribeFormContents = ({ status, message, subscribe }) => {
         <input type="email" placeholder="Your email" ref={node => (email = node)} required />
         <button type="submit" value="Submit" />
       </form>
-      {status === 'sending' && <span>Submitting...</span>}
-      {status === 'error' && <span dangerouslySetInnerHTML={{ __html: message }} />}
-      {status === 'success' && <span>Thank you for subscribing! We'll be in touch.</span>}
+      {status === 'error' && <p className='subscribe-form-error error' dangerouslySetInnerHTML={{ __html: message }} />}
+      {status === 'success' && <p className='subscribe-form-success'>Thank you for subscribing! We'll be in touch soon ❤️</p>}
     </section>
   );
 };

@@ -99,6 +99,11 @@ a {
 
 }
 
+.error{
+  @extend .body-1;
+  color: $color-error;
+}
+
 hr{
   height: 1px;
   border:0;
