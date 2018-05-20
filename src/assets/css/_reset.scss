@@ -159,3 +159,16 @@ textarea {
    	-webkit-overflow-scrolling: touch;
   }
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: $color-placeholder;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: $color-placeholder;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: $color-placeholder;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: $color-placeholder;
+}

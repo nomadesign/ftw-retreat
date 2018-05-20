@@ -1,0 +1,9 @@
+.footer{
+  background-color: $background-color-darker;
+  padding:  $baseline * 11  0 $baseline * 12;
+
+  .subhead-2,
+  .title-2{
+    margin-bottom: $baseline;
+  }
+}
