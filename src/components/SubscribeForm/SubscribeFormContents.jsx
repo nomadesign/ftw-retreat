@@ -10,6 +10,7 @@ const SubscribeFormContents = ({ status, message, subscribe }) => {
 
   return (
     <section className="subscribe-form">
+      <p className="subhead-2">Sign-up for updates and be the first one to know</p>
       <form className="subscribe-form-wrapper" onSubmit={submit}>
         <input type="email" placeholder="Your email" ref={node => (email = node)} required />
         <button type="submit" value="Submit" />

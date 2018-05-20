@@ -20,13 +20,6 @@ const IndexPage = () => (
         </div>
         <div className="row">
           <div className="col-1" />
-          <div className="col-11">
-            <p className="subhead-2">Sign-up for updates and be the first one to know</p>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-1" />
           <div className="col-6">
             <SubscribeForm />
           </div>
