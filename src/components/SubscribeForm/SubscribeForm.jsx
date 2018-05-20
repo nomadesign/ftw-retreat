@@ -2,7 +2,8 @@ import React from 'react';
 import SubscribeFormContents from './SubscribeFormContents';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
-const url = 'https://design.us18.list-manage.com/subscribe/post?u=84e246a772144cb0d4c59553a&amp;id=a15d1dc2f9';
+const url =
+  'https://forthewomenretreat.us18.list-manage.com/subscribe/post?u=a1476b213c1cdb5d968fa0c54&amp;id=989581153d';
 
 const SubscribeForm = () => (
   <MailchimpSubscribe
