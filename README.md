@@ -10,5 +10,5 @@ npm install
 Then you can start up the site for local development by running:
 
 ```sh
-npm run develop
+npm start
 ```
