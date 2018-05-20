@@ -7,13 +7,23 @@ import '../assets/css/style.scss';
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: data.site.siteMetadata.description },
-        { name: 'keywords', content: data.site.siteMetadata.keywords }
-      ]}
-    />
+    <Helmet>
+      <title>{data.site.siteMetadata.title}</title>
+      <meta name="description" content={data.site.siteMetadata.description} />
+      <meta name="keywords" content={data.site.siteMetadata.keywords} />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@publisher_handle" />
+      <meta name="twitter:title" content={data.site.siteMetadata.title} />
+      <meta name="twitter:description" content={data.site.siteMetadata.description} />
+      <meta name="twitter:creator" content="@author_handle" />
+      <meta name="twitter:image:src" content="image.jpg" />
+      <meta property="og:title" content={data.site.siteMetadata.title} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://forthewomenretreat.com" />
+      <meta property="og:image" content="image.jpg" />
+      <meta property="og:description" content={data.site.siteMetadata.description} />
+      <meta property="og:site_name" content={data.site.siteMetadata.title} />
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <main>{children()}</main>
   </div>
