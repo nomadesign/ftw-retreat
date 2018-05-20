@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from 'components/Header';
+import imgHero01 from 'images/hero-01.jpg';
 import '../assets/css/style.scss';
 
 const Layout = ({ children, data }) => (
@@ -16,11 +17,11 @@ const Layout = ({ children, data }) => (
       <meta name="twitter:title" content={data.site.siteMetadata.title} />
       <meta name="twitter:description" content={data.site.siteMetadata.description} />
       <meta name="twitter:creator" content="@author_handle" />
-      <meta name="twitter:image:src" content="image.jpg" />
+      <meta name="twitter:image:src" content={imgHero01} />
       <meta property="og:title" content={data.site.siteMetadata.title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://forthewomenretreat.com" />
-      <meta property="og:image" content="image.jpg" />
+      <meta property="og:image" content={imgHero01} />
       <meta property="og:description" content={data.site.siteMetadata.description} />
       <meta property="og:site_name" content={data.site.siteMetadata.title} />
     </Helmet>
