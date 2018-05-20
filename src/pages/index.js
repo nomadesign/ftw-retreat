@@ -144,9 +144,8 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-3" />
-          <div className="col-6">
-            <h3 className="title-2 center">Subscribe</h3>
-            <p className="subhead-2 center">Sign-up for updates and be the first one to know</p>
+          <div className="col-6 center">
+            <h3 className="title-2">Subscribe</h3>
             <SubscribeForm />
           </div>
         </div>
