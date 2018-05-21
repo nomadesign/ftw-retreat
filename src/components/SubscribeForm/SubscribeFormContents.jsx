@@ -10,13 +10,23 @@ const SubscribeFormContents = ({ status, message, subscribe }) => {
 
   return (
     <section className="subscribe-form">
-      <p className="subhead-2">Sign-up for updates and be the first one to know</p>
-      <form className="subscribe-form-wrapper" onSubmit={submit}>
-        <input type="email" placeholder="Your email" ref={node => (email = node)} required />
-        <button type="submit" value="Submit" />
-      </form>
-      {status === 'error' && <p className='subscribe-form-error error' dangerouslySetInnerHTML={{ __html: message }} />}
-      {status === 'success' && <p className='subscribe-form-success'>Thank you for subscribing! We'll be in touch soon ❤️</p>}
+      {status !== 'success' && <p className="subhead-2">Sign up for updates and be the first one to know</p>}
+      {status !== 'success' && (
+        <form className="subscribe-form-wrapper" onSubmit={submit}>
+          <input
+            type="email"
+            placeholder="Your email"
+            ref={node => (email = node)}
+            disabled={status === 'sending'}
+            required
+          />
+          <button type="submit" value="Submit" disabled={status === 'sending'} />
+        </form>
+      )}
+      {status === 'error' && <p className="subscribe-form-error error" dangerouslySetInnerHTML={{ __html: message }} />}
+      {status === 'success' && (
+        <p className="subscribe-form-success">Thank you for subscribing! We'll be in touch soon ❤️</p>
+      )}
     </section>
   );
 };
