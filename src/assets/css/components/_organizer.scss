@@ -1,10 +1,6 @@
 .organizer{
-  background-color: $background-color-darker;
-  padding-bottom: $baseline * 11;
-
-  hr{
-    margin-bottom: $baseline * 11;
-  }
+  background-image: linear-gradient(-179deg, $background-color 0%, $background-color-darker 100%);
+  padding-bottom: $baseline * 24;
 }
 
   .organizer-wrapper{
@@ -19,18 +15,18 @@
       z-index: 1;
       background: #FFFFFF;
       box-shadow: $box-shadow;
-      padding: $baseline * 4 $baseline * 5;
+      padding: $baseline * 5;
       .subhead-1{
         margin-bottom: $baseline * 2;
       }
     }
     .organizer-shape{
       left: 45%;
-      top:19%;
+      top:27%;
       width: 24.68%;
     }
     .organizer-kuan{
-      left: 59%;
-      top:12%;
+      left: 60%;
+      top:20%;
       width: 32%;
     }

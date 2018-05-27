@@ -1,9 +1,24 @@
 .footer{
   background-color: $background-color-darker;
-  padding:  $baseline * 11  0 $baseline * 12;
+  padding-bottom: $baseline * 16;
 
-  .subhead-2,
-  .title-2{
+  hr{
+    margin-bottom: $baseline * 12;
+  }
+}
+
+.footer-quote{
+
+}
+
+.footer-contact{
+  a{
+    @extend .body-2;
+    font-size: 15px;
+    line-height: $baseline * 3;
     margin-bottom: $baseline;
+  }
+  .media-figure{
+    margin-right: $baseline / 1.5;
   }
 }

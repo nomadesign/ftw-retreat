@@ -1,6 +1,10 @@
 .testimonial{
-  background-image: linear-gradient(-179deg, $background-color 0%, $background-color-darker 100%);
-  padding: $baseline * 12 0;
+  background-color: $background-color-darker;
+  padding-bottom: $baseline * 18;
+
+  hr{
+    margin-bottom: $baseline * 12;
+  }
 
   .title-1{
     margin-bottom: $baseline * 6;
@@ -10,8 +14,23 @@
     margin-bottom: $baseline * 3;
   }
 
+  .testimonial-erin .body-2 {
+    margin-bottom: $baseline * 3 + 28px;
+  }
+
   .media{
     align-items: center;
     margin-bottom: $baseline * 4;
+  }
+}
+
+
+@media only screen and (min-width: $breakpoint-large) {
+  .testimonial-erin{
+    padding-right: 10px;
+  }
+
+  .testimonial-becca{
+    padding-left: 10px;
   }
 }
