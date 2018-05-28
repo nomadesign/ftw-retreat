@@ -8,6 +8,8 @@ import imgSignature from 'images/history-signature.svg';
 import imgAvatarBecca from 'images/avatar-becca.png';
 import imgOrganizerShape from 'images/organizer-shape.svg';
 import imgOrganizerKuan from 'images/organizer-kuan.jpg';
+import iconWebsite from 'images/icon-website.svg';
+import iconTwitter from 'images/icon-twitter.svg';
 
 const IndexPage = () => {
   return (
@@ -89,6 +91,12 @@ const IndexPage = () => {
                   our own stories. Kuan dreamed of FTW Retreat last year, and is committed to bringing women together to
                   support one another from an authentic, heartful, and creative place.
                 </p>
+                <a href="https://twitter.com/kuanluo">
+                  <img src={iconTwitter} alt="Twitter" width="24" height="24" />
+                </a>
+                <a href="https://kuanluo.com">
+                  <img src={iconWebsite} alt="Website" width="24" height="24" />
+                </a>
               </div>
 
               <img src={imgOrganizerKuan} className="organizer-kuan" />
