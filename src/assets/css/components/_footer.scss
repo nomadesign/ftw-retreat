@@ -11,8 +11,14 @@
     font-size: 15px;
     line-height: $baseline * 3;
     margin-bottom: $baseline;
+    img{
+      opacity: .4;
+    }
     &:hover {
       color: $color-title;
+      img {
+        opacity: .7;
+      }
     }
   }
   .media-figure{
