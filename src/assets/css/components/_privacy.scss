@@ -1,0 +1,14 @@
+.privacy {
+  background-image: linear-gradient(-179deg, $background-color 0%, $background-color-darker 100%);
+  padding-bottom: $baseline * 12;
+
+  .title-1{
+    margin-bottom: $baseline * 4;
+  }
+  .subhead-1{
+    margin-bottom: $baseline;
+  }
+  .body-2 {
+    margin-bottom: $baseline * 3;
+  }
+}
