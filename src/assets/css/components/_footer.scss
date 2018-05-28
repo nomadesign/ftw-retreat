@@ -1,24 +1,26 @@
 .footer{
   background-color: $background-color-darker;
-  padding-bottom: $baseline * 16;
+  padding: $baseline * 16 0;
 
   hr{
     margin-bottom: $baseline * 12;
   }
-}
 
-.footer-quote{
-
-}
-
-.footer-contact{
   a{
     @extend .body-2;
     font-size: 15px;
     line-height: $baseline * 3;
     margin-bottom: $baseline;
+    &:hover {
+      color: $color-title;
+    }
   }
   .media-figure{
     margin-right: $baseline / 1.5;
   }
+}
+
+a.footer-privacy{
+  font-size: 13px;
+  color: $color-light;
 }
