@@ -11,7 +11,6 @@ import iconEmail from 'images/icon-email.svg';
 import iconInstagram from 'images/icon-instagram.svg';
 
 const IndexPage = () => {
-
   return (
     <div>
       <section className="hero">
@@ -19,13 +18,10 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-1" />
             <div className="col-11">
-              <h1 className="headline">
-                A beautiful retreat for creative women
-              </h1>
+              <h1 className="headline">A beautiful retreat for creative women</h1>
               <SubscribeForm />
             </div>
           </div>
-
 
           <div className="row">
             <div className="col-5">
@@ -46,41 +42,32 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-4">
               <p className="title-1">
-                <strong>Five all-inclusive days of pliable time.</strong> Honor the
-                introverted reader, the wild painter, the brilliant
-                photographer, the clever writer, and the big dreamer in all of us.
+                <strong>Five all-inclusive days of pliable time.</strong> Honor the introverted reader, the wild
+                painter, the brilliant photographer, the clever writer, and the big dreamer in all of us.
               </p>
             </div>
             <div className="col-1" />
             <div className="col-7">
               <p className="subhead-2">
-                The For The Women (FTW) Retreat started as an experiment.
-                What could a yoga retreat be without the yoga? What could a
-                personal retreat with a collective of creative women look like?
+                The For The Women (FTW) Retreat started as an experiment. What could a yoga retreat be without the yoga?
+                What could a personal retreat with a collective of creative women look like?
               </p>
               <p className="subhead-2">
-                Last winter, on a beautiful, tranquil beach in Jamaica,
-                we gathered for the inaugural FTW Retreat in a white house
-                with a pool and plenty of nooks.
+                Last winter, on a beautiful, tranquil beach in Jamaica, we gathered for the inaugural FTW Retreat in a
+                white house with a pool and plenty of nooks.
               </p>
               <p className="subhead-2">
-                The unstructured days were filled with quiet reflections and
-                creative endeavors. We came together for authentic home cooking,
-                stories, and laughter. And we left feeling rested, renewed, and
-                inspired.
+                The unstructured days were filled with quiet reflections and creative endeavors. We came together for
+                authentic home cooking, stories, and laughter. And we left feeling rested, renewed, and inspired.
               </p>
               <p className="subhead-2">
-                This fall, we invite you to join us for the official first edition
-                of FTW Retreat in North America. To advance our own divinity,
-                step with grace into possibilities and our own divinity,
-                advance, we retreat as women together. We will rest, create,
-                and step into an experience that’s both a personal retreat and
-                a group vacation with your girlfriends. You won’t find this
-                anywhere else.
+                This fall, we invite you to join us for the official first edition of FTW Retreat in North America. To
+                advance our own divinity, step with grace into possibilities and our own divinity, advance, we retreat
+                as women together. We will rest, create, and step into an experience that’s both a personal retreat and
+                a group vacation with your girlfriends. You won’t find this anywhere else.
               </p>
               <p className="subhead-2">
-                The details are in the works. Sign up to be the first
-                to know when registration is open.
+                The details are in the works. Sign up to be the first to know when registration is open.
               </p>
               <p className="subhead-2">
                 Kuan Luo
@@ -91,7 +78,6 @@ const IndexPage = () => {
         </div>
       </section>
 
-
       <section className="organizer">
         <div className="container">
           <div className="row organizer-wrapper">
@@ -99,12 +85,10 @@ const IndexPage = () => {
               <div className="organizer-card">
                 <h3 className="subhead-1">About the organizer</h3>
                 <p className="body-2">
-                  Kuan has a knack for designing experiences that bring people
-                  together. Trained as a journalist, yoga instructor and product
-                  designer, she sees design and travel as inseparable tools for
-                  humanity to tell our own stories. Kuan dreamed of FTW Retreat
-                  last year, and is committed to bringing women together to support
-                  one another from an authentic, heartful, and creative place.
+                  Kuan has a knack for designing experiences that bring people together. Trained as a journalist, yoga
+                  instructor and product designer, she sees design and travel as inseparable tools for humanity to tell
+                  our own stories. Kuan dreamed of FTW Retreat last year, and is committed to bringing women together to
+                  support one another from an authentic, heartful, and creative place.
                 </p>
               </div>
 
@@ -114,7 +98,6 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
-
 
       <section className="testimonial">
         <div className="container">
@@ -137,11 +120,10 @@ const IndexPage = () => {
             <div className="col-5">
               <div className="testimonial-erin">
                 <p className="body-2 ">
-                  “I loved this retreat! It was peaceful, calm, and lovely.
-                  All the ladies were able to separate and come together harmoniously
-                  and without judgment. I chose to spend time working on the trip,
-                  but loved participating in group meals, game nights, and idle
-                  chit chat. It was a great, supportive and kind group and a beautiful trip.”
+                  “I loved this retreat! It was peaceful, calm, and lovely. All the ladies were able to separate and
+                  come together harmoniously and without judgment. I chose to spend time working on the trip, but loved
+                  participating in group meals, game nights, and idle chit chat. It was a great, supportive and kind
+                  group and a beautiful trip.”
                 </p>
                 <div className="media">
                   <div className="media-body">
@@ -154,12 +136,10 @@ const IndexPage = () => {
             <div className="col-5">
               <div className="testimonial-becca">
                 <p className="body-2">
-                  “We ventured to Jamaica on our FTW Retreat. In our villa, we
-                  found time to relax. Something special happens when a group
-                  of women gets to take a trip together. Everyone brought their
-                  own work or life projects and we were able to focus, get some
-                  "us" time, and enjoy the sun in a beautiful place.
-                  We ate and drank well and enjoyed our beautiful surroundings!”
+                  “We ventured to Jamaica on our FTW Retreat. In our villa, we found time to relax. Something special
+                  happens when a group of women gets to take a trip together. Everyone brought their own work or life
+                  projects and we were able to focus, get some "us" time, and enjoy the sun in a beautiful place. We ate
+                  and drank well and enjoyed our beautiful surroundings!”
                 </p>
                 <div className="media">
                   <div className="media-body">
@@ -175,8 +155,6 @@ const IndexPage = () => {
       </section>
 
       <section className="footer">
-
-
         <div className="container">
           <div className="row">
             <div className="col-12 center">
@@ -184,8 +162,6 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-
-
 
         <div className="container">
           <div className="row">
@@ -198,30 +174,21 @@ const IndexPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-8 footer-quote">
-              <p className="body-2">
-                “It’s very important to learn again the art of resting and relaxing.”
-              </p>
-              <p className="body-3">
-                ⏤ Thich Nhat Hanh
-              </p>
+              <p className="body-2">“It’s very important to learn again the art of resting and relaxing.”</p>
+              <p className="body-3">⏤ Thich Nhat Hanh</p>
             </div>
             <div className="col-4 footer-contact">
               <a href="mailto:contact@forthewomenretreat.com" className="media">
                 <img src={iconEmail} width="24" className="media-figure" />
-                <div className="media-body">
-                  contact@forthewomenretreat.com
-                </div>
+                <div className="media-body">contact@forthewomenretreat.com</div>
               </a>
               <a href="https://www.instagram.com/ftwretreat" className="media">
                 <img src={iconInstagram} width="24" className="media-figure" />
-                <div className="media-body">
-                  @ftwretreat
-                </div>
+                <div className="media-body">@ftwretreat</div>
               </a>
             </div>
           </div>
         </div>
-
       </section>
     </div>
   );
