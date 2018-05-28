@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from 'components/Header';
+import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgFavicon from 'images/favicon.png';
 import '../assets/css/style.scss';
@@ -29,6 +30,7 @@ const Layout = ({ children, data }) => (
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <main>{children()}</main>
+    <Footer />
   </div>
 );
 
