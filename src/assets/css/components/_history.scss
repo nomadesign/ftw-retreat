@@ -1,5 +1,5 @@
 .history{
-  margin-bottom: $baseline * 6;
+  margin-bottom: $baseline * 12;
 
   .title-1{
     color: $color-light;
@@ -11,11 +11,11 @@
   }
   .subhead-2{
     position: relative;
-    margin-bottom: $baseline * 5;
+    margin-bottom: $baseline * 3;
   }
 }
   .history-signature{
     position: absolute;
-    bottom: -24px;
-    left: -12px;
+    bottom:  $baseline / 2 * -3;
+    left:  $baseline / 2 * -1;
   }

@@ -7,151 +7,224 @@ import imgSignature from 'images/history-signature.svg';
 import imgAvatarBecca from 'images/avatar-becca.png';
 import imgOrganizerShape from 'images/organizer-shape.svg';
 import imgOrganizerKuan from 'images/organizer-kuan.jpg';
+import iconEmail from 'images/icon-email.svg';
+import iconInstagram from 'images/icon-instagram.svg';
 
-const IndexPage = () => (
-  <div>
-    <section className="hero">
-      <div className="container">
-        <div className="row">
-          <div className="col-1" />
-          <div className="col-11">
-            <h1 className="headline">A retreat for creative women in a beautiful environment.</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-1" />
-          <div className="col-6">
-            <SubscribeForm />
-          </div>
-        </div>
+const IndexPage = () => {
 
-        <div className="row">
-          <div className="col-5">
-            <img src={imgHero01} className="hidden-sm" />
+  return (
+    <div>
+      <section className="hero">
+        <div className="container">
+          <div className="row">
+            <div className="col-1" />
+            <div className="col-11">
+              <h1 className="headline">
+                A beautiful retreat for creative women
+              </h1>
+              <SubscribeForm />
+            </div>
           </div>
-          <div className="col-7">
-            <div className="hero-shape-wrapper">
-              <img src={imgHeroShape} className="hero-shape" />
-              <img src={imgHero02} />
+
+
+          <div className="row">
+            <div className="col-5">
+              <img src={imgHero01} className="hidden-sm" />
+            </div>
+            <div className="col-7">
+              <div className="hero-shape-wrapper">
+                <img src={imgHeroShape} className="hero-shape" />
+                <img src={imgHero02} />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="history">
-      <div className="container">
-        <div className="row">
-          <div className="col-4">
-            <p className="title-1">
-              <strong>Every body has a story.</strong>
-              <br />
-              The introverted reader, the wild painter, the brilliant photographer, the clever writer, and the skilled
-              dreamer in all of us.
-            </p>
-          </div>
-          <div className="col-1" />
-          <div className="col-7">
-            <p className="subhead-2">
-              Instead of filling ourselves up, we empty out and just be. Immersive 5-day experience for creative women,
-              honoring.
-            </p>
-            <p className="subhead-2">
-               We need time to take a break from our routine, to take care of ourselves, the creative, quiet, yet
-              demanding child inside each of us, yearning to read, paint, sleep, draw, sew to our heart’s content. This
-              is the space for such desire, demand and responsibility. We’re responsible for our creative child within.
-              Read Artist’s Way and do all the exercises, read 3 books in 4 days, catch up with our creative child
-              inside, and feel nourished and ready when we leave.
-            </p>
-            <p className="subhead-2">
-               The untendered soul is waiting for us to share experience with other women, of all background, age and
-              work. All women coming together to celebrate our truth. Our creativity, our true responsibility.
-            </p>
-            <p className="subhead-2">
-              Go within, or go without.
-              <img src={imgSignature} className="history-signature" />
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="testimonial">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <h2 className="title-1">What women say</h2>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-1" />
-          <div className="col-5">
-            <p className="body-2">
-              “Within brings together women from different backgrounds and experiences, to share what challenges have
-              shaped them, what questions they are grappling with, and what dreams they have for our collective future.”
-            </p>
-            <div className="media">
-              <img src={imgAvatarBecca} width="48" className="media-figure" alt="Becca" />
-              <p className="body-1 media-body">Becca</p>
-            </div>
-          </div>
-          <div className="col-5">
-            <p className="body-2">
-              “Within brings together women from different backgrounds and experiences, to share what challenges have
-              shaped them, what questions they are grappling with, and what dreams they have for our collective future.”
-            </p>
-            <div className="media">
-              <img src={imgAvatarBecca} width="48" className="media-figure" alt="Becca" />
-              <p className="body-1 media-body">Becca</p>
-            </div>
-          </div>
-          <div className="col-1" />
-        </div>
-      </div>
-    </section>
-
-    <section className="organizer">
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <hr />
-          </div>
-        </div>
-      </div>
-
-      <div className="container">
-        <div className="row organizer-wrapper">
-          <div className="col-1" />
-          <div className="col-7">
-            <div className="organizer-card">
-              <h3 className="subhead-1">About the organizer</h3>
-              <p className="body-2">
-                Kuan Luo was launched in 2016, to bridge the gap between the once a year connections, empowerment and
-                inspiration that happen at our conference. The Yellow Collective was built to create similar experiences
-                that happen at the conference on a daily basis to all members.
+      <section className="history">
+        <div className="container">
+          <div className="row">
+            <div className="col-4">
+              <p className="title-1">
+                <strong>Five all-inclusive days of pliable time.</strong> Honor the
+                introverted reader, the wild painter, the brilliant
+                photographer, the clever writer, and the big dreamer in all of us.
               </p>
             </div>
-
-            <img src={imgOrganizerKuan} className="organizer-kuan" />
-            <img src={imgOrganizerShape} className="organizer-shape" />
+            <div className="col-1" />
+            <div className="col-7">
+              <p className="subhead-2">
+                The For The Women (FTW) Retreat started as an experiment.
+                What could a yoga retreat be without the yoga? What could a
+                personal retreat with a collective of creative women look like?
+              </p>
+              <p className="subhead-2">
+                Last winter, on a beautiful, tranquil beach in Jamaica,
+                we gathered for the inaugural FTW Retreat in a white house
+                with a pool and plenty of nooks.
+              </p>
+              <p className="subhead-2">
+                The unstructured days were filled with quiet reflections and
+                creative endeavors. We came together for authentic home cooking,
+                stories, and laughter. And we left feeling rested, renewed, and
+                inspired.
+              </p>
+              <p className="subhead-2">
+                This fall, we invite you to join us for the official first edition
+                of FTW Retreat in North America. To advance our own divinity,
+                step with grace into possibilities and our own divinity,
+                advance, we retreat as women together. We will rest, create,
+                and step into an experience that’s both a personal retreat and
+                a group vacation with your girlfriends. You won’t find this
+                anywhere else.
+              </p>
+              <p className="subhead-2">
+                The details are in the works. Sign up to be the first
+                to know when registration is open.
+              </p>
+              <p className="subhead-2">
+                Kuan Luo
+                <img src={imgSignature} className="history-signature" />
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-3" />
-          <div className="col-6 center">
-            <h3 className="title-2">Subscribe</h3>
-            <SubscribeForm />
+
+      <section className="organizer">
+        <div className="container">
+          <div className="row organizer-wrapper">
+            <div className="col-8">
+              <div className="organizer-card">
+                <h3 className="subhead-1">About the organizer</h3>
+                <p className="body-2">
+                  Kuan has a knack for designing experiences that bring people
+                  together. Trained as a journalist, yoga instructor and product
+                  designer, she sees design and travel as inseparable tools for
+                  humanity to tell our own stories. Kuan dreamed of FTW Retreat
+                  last year, and is committed to bringing women together to support
+                  one another from an authentic, heartful, and creative place.
+                </p>
+              </div>
+
+              <img src={imgOrganizerKuan} className="organizer-kuan" />
+              <img src={imgOrganizerShape} className="organizer-shape" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-);
+      </section>
+
+
+      <section className="testimonial">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <h2 className="title-1">Testimonials</h2>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-1" />
+            <div className="col-5">
+              <div className="testimonial-erin">
+                <p className="body-2 ">
+                  “I loved this retreat! It was peaceful, calm, and lovely.
+                  All the ladies were able to separate and come together harmoniously
+                  and without judgment. I chose to spend time working on the trip,
+                  but loved participating in group meals, game nights, and idle
+                  chit chat. It was a great, supportive and kind group and a beautiful trip.”
+                </p>
+                <div className="media">
+                  <div className="media-body">
+                    <h4 className="caption-1">Erin W.</h4>
+                    <span className="caption-2">New York, NY</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-5">
+              <div className="testimonial-becca">
+                <p className="body-2">
+                  “We ventured to Jamaica on our FTW Retreat. In our villa, we
+                  found time to relax. Something special happens when a group
+                  of women gets to take a trip together. Everyone brought their
+                  own work or life projects and we were able to focus, get some
+                  "us" time, and enjoy the sun in a beautiful place.
+                  We ate and drank well and enjoyed our beautiful surroundings!”
+                </p>
+                <div className="media">
+                  <div className="media-body">
+                    <h4 className="caption-1">Becca R.</h4>
+                    <span className="caption-2">Brooklyn, NY</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-1" />
+          </div>
+        </div>
+      </section>
+
+      <section className="footer">
+
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12 center">
+              <SubscribeForm />
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-8 footer-quote">
+              <p className="body-2">
+                “It’s very important to learn again the art of resting and relaxing.”
+              </p>
+              <p className="body-3">
+                ⏤ Thich Nhat Hanh
+              </p>
+            </div>
+            <div className="col-4 footer-contact">
+              <a href="mailto:contact@forthewomenretreat.com" className="media">
+                <img src={iconEmail} width="24" className="media-figure" />
+                <div className="media-body">
+                  contact@forthewomenretreat.com
+                </div>
+              </a>
+              <a href="https://www.instagram.com/ftwretreat" className="media">
+                <img src={iconInstagram} width="24" className="media-figure" />
+                <div className="media-body">
+                  @ftwretreat
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  );
+};
 
 export default IndexPage;
