@@ -31,11 +31,11 @@ const Footer = ({ showRegistration }) => (
           <p className="body-3">⏤ Thich Nhat Hanh</p>
         </div>
         <div className="col-4">
-          <a href="mailto:contact@forthewomenretreat.com" className="media">
+          <a href="mailto:contact@forthewomenretreat.com" target="_blank" className="media">
             <img src={iconEmail} width="24" className="media-figure" />
             <div className="media-body">contact@forthewomenretreat.com</div>
           </a>
-          <a href="https://www.instagram.com/ftwretreat" className="media">
+          <a href="https://www.instagram.com/ftwretreat" target="_blank" className="media">
             <img src={iconInstagram} width="24" className="media-figure" />
             <div className="media-body">@ftwretreat</div>
           </a>

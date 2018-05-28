@@ -91,10 +91,10 @@ const IndexPage = () => {
                   our own stories. Kuan dreamed of FTW Retreat last year, and is committed to bringing women together to
                   support one another from an authentic, heartful, and creative place.
                 </p>
-                <a href="https://twitter.com/kuanluo">
+                <a href="https://twitter.com/kuanluo" target="_blank">
                   <img src={iconTwitter} alt="Twitter" width="24" height="24" />
                 </a>
-                <a href="https://kuanluo.com">
+                <a href="https://kuanluo.com" target="_blank">
                   <img src={iconWebsite} alt="Website" width="24" height="24" />
                 </a>
               </div>
