@@ -16,11 +16,11 @@ const Layout = ({ children, data }) => (
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={data.site.siteMetadata.title} />
       <meta name="twitter:description" content={data.site.siteMetadata.description} />
-      <meta name="twitter:image:src" content={imgHero01} />
+      <meta name="twitter:image:src" content={'https://forthewomenretreat.com' + imgHero01} />
       <meta property="og:title" content={data.site.siteMetadata.title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://forthewomenretreat.com" />
-      <meta property="og:image" content={imgHero01} />
+      <meta property="og:image" content={'https://forthewomenretreat.com' + imgHero01} />
       <meta property="og:description" content={data.site.siteMetadata.description} />
       <meta property="og:site_name" content={data.site.siteMetadata.title} />
       <link rel="icon" type="image/png" href={imgFavicon} />
