@@ -14,10 +14,8 @@ const Layout = ({ children, data }) => (
       <meta name="description" content={data.site.siteMetadata.description} />
       <meta name="keywords" content={data.site.siteMetadata.keywords} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@publisher_handle" />
       <meta name="twitter:title" content={data.site.siteMetadata.title} />
       <meta name="twitter:description" content={data.site.siteMetadata.description} />
-      <meta name="twitter:creator" content="@author_handle" />
       <meta name="twitter:image:src" content={imgHero01} />
       <meta property="og:title" content={data.site.siteMetadata.title} />
       <meta property="og:type" content="website" />
