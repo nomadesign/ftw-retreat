@@ -1,9 +1,22 @@
 import React from 'react';
+import Link from 'gatsby-link';
+import Footer from 'components/Footer';
 
 const NotFoundPage = () => (
   <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist.</p>
+    <section className="privacy">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <p className="title-1">Not Found</p>
+            <p className="body-2">
+              This page doesn't exist. <Link to="/">Head back home.</Link>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <Footer />
   </div>
 );
 

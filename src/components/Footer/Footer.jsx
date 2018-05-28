@@ -4,15 +4,17 @@ import SubscribeForm from 'components/SubscribeForm';
 import iconEmail from 'images/icon-email.svg';
 import iconInstagram from 'images/icon-instagram.svg';
 
-const Footer = () => (
+const Footer = ({ showRegistration }) => (
   <section className="footer">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 center">
-          <SubscribeForm />
+    {showRegistration && (
+      <div className="container">
+        <div className="row">
+          <div className="col-12 center">
+            <SubscribeForm />
+          </div>
         </div>
       </div>
-    </div>
+    )}
 
     <div className="container">
       <div className="row">

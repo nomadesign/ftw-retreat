@@ -1,5 +1,6 @@
 import React from 'react';
 import SubscribeForm from 'components/SubscribeForm';
+import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
 import imgHeroShape from 'images/hero-shape.svg';
@@ -151,6 +152,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+      <Footer showRegistration={true} />
     </div>
   );
 };
