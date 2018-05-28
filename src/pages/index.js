@@ -41,32 +41,26 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-4">
               <p className="title-1">
-                <strong>Five all-inclusive days of pliable time.</strong> Honor the introverted reader, the wild
-                painter, the brilliant photographer, the clever writer, and the big dreamer in all of us.
+              <strong>Five all-inclusive days of pliable time.</strong>
+              Honor the introverted reader, the wild painter, the brilliant photographer, the clever writer, and the big dreamer in all of us.
               </p>
             </div>
             <div className="col-1" />
             <div className="col-7">
               <p className="subhead-2">
-                The For The Women (FTW) Retreat started as an experiment. What could a yoga retreat be without the yoga?
-                What could a personal retreat with a collective of creative women look like?
+                The For The Women (FTW) Retreat started as an experiment. What could a yoga retreat be without the yoga? What could a personal retreat with a collective of creative women look like?
               </p>
               <p className="subhead-2">
-                Last winter, on a beautiful, tranquil beach in Jamaica, we gathered for the inaugural FTW Retreat in a
-                white house with a pool and plenty of nooks.
+                Last winter, on a beautiful, tranquil beach in Jamaica, we gathered for the beta FTW Retreat in a white house with a pool and plenty of nooks.
               </p>
               <p className="subhead-2">
-                The unstructured days were filled with quiet reflections and creative endeavors. We came together for
-                authentic home cooking, stories, and laughter. And we left feeling rested, renewed, and inspired.
+                The unstructured days were filled with quiet reflections and creative endeavors. We came together for authentic home cooking, stories, and laughter. And we left feeling rested, renewed, and inspired.
               </p>
               <p className="subhead-2">
-                This fall, we invite you to join us for the official first edition of FTW Retreat in North America. To
-                advance our own divinity, step with grace into possibilities and our own divinity, advance, we retreat
-                as women together. We will rest, create, and step into an experience that’s both a personal retreat and
-                a group vacation with your girlfriends. You won’t find this anywhere else.
+                This fall, we invite you to join us for the official first edition of FTW Retreat in North America. To advance into possibilities with grace, we retreat as women together. We will rest, and create an experience that’s both a personal retreat and a group vacation with your girlfriends. You won’t find this anywhere else.
               </p>
               <p className="subhead-2">
-                The details are in the works. Sign up to be the first to know when registration is open.
+                The details are in the works. Sign up for announcements and more.
               </p>
               <p className="subhead-2">
                 Kuan Luo
