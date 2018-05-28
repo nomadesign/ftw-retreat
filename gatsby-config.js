@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'For the Women Retreat',
-    description: 'A retreat for accomplished women in a beautiful environment.',
-    keywords: 'retreat, women'
+    description: 'A beautiful retreat for creative women. Five all-inclusive days of pliable time. Coming Fall 2018.',
+    keywords: 'women, retreat, creative, inclusive'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
