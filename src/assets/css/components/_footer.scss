@@ -2,6 +2,10 @@
   background-color: $background-color-darker;
   padding: $baseline * 16 0;
 
+  .body-3{
+    margin-bottom: $baseline * 3;
+  }
+
   hr{
     margin-bottom: $baseline * 12;
   }
@@ -11,8 +15,14 @@
     font-size: 15px;
     line-height: $baseline * 3;
     margin-bottom: $baseline;
+    img{
+      opacity: .4;
+    }
     &:hover {
       color: $color-title;
+      img {
+        opacity: .7;
+      }
     }
   }
   .media-figure{

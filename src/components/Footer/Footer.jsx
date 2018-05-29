@@ -26,16 +26,12 @@ const Footer = ({ showRegistration }) => (
 
     <div className="container">
       <div className="row">
-        <div className="col-8 ">
-          <p className="body-2">“It’s very important to learn again the art of resting and relaxing.”</p>
-          <p className="body-3">⏤ Thich Nhat Hanh</p>
-        </div>
         <div className="col-4">
-          <a href="mailto:contact@forthewomenretreat.com" className="media">
+          <a href="mailto:contact@forthewomenretreat.com" target="_blank" className="media">
             <img src={iconEmail} width="24" className="media-figure" />
             <div className="media-body">contact@forthewomenretreat.com</div>
           </a>
-          <a href="https://www.instagram.com/ftwretreat" className="media">
+          <a href="https://www.instagram.com/ftwretreat" target="_blank" className="media">
             <img src={iconInstagram} width="24" className="media-figure" />
             <div className="media-body">@ftwretreat</div>
           </a>
@@ -43,6 +39,10 @@ const Footer = ({ showRegistration }) => (
           <Link to="/privacy/" className="footer-privacy">
             Privacy Policy
           </Link>
+        </div>
+        <div className="col-8 right">
+          <p className="body-2">“It’s very important to learn again the art of resting and relaxing.”</p>
+          <p className="body-3">⏤ Thich Nhat Hanh</p>
         </div>
       </div>
     </div>
