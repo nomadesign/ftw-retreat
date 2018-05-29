@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://forthewomenretreat.netlify.com/* https://forthewomenretreat.com/:splat 301!
