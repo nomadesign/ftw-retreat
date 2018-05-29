@@ -2,6 +2,10 @@
   background-color: $background-color-darker;
   padding: $baseline * 16 0;
 
+  .body-3{
+    margin-bottom: $baseline * 3;
+  }
+
   hr{
     margin-bottom: $baseline * 12;
   }
