@@ -43,8 +43,7 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-4">
               <p className="title-1">
-              <strong>Five all-inclusive days of pliable time.</strong>
-              Honor the introverted reader, the wild painter, the brilliant photographer, the clever writer, and the big dreamer in all of us.
+              <strong>Five all-inclusive days of pliable time.</strong> Honor the introverted reader, the wild painter, the brilliant photographer, the clever writer, and the big dreamer in all of us.
               </p>
             </div>
             <div className="col-1" />
