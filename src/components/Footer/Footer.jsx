@@ -40,7 +40,7 @@ const Footer = ({ showRegistration }) => (
             Privacy Policy
           </Link>
         </div>
-        <div className="col-8 right">
+        <div className="col-8 footer-quote">
           <p className="body-2">“It’s very important to learn again the art of resting and relaxing.”</p>
           <p className="body-3">⏤ Thich Nhat Hanh</p>
         </div>

@@ -2,10 +2,6 @@
   background-color: $background-color-darker;
   padding: $baseline * 16 0;
 
-  .body-3{
-    margin-bottom: $baseline * 3;
-  }
-
   hr{
     margin-bottom: $baseline * 12;
   }
@@ -31,6 +27,15 @@
 }
 
 a.footer-privacy{
+  display: inline-block;
   font-size: 13px;
   color: $color-light;
+  margin-bottom: $baseline * 3;
+}
+
+.footer-quote {
+
+  @media only screen and (min-width: $breakpoint-med) {
+    text-align: right;
+  }
 }
