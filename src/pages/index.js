@@ -52,16 +52,16 @@ const IndexPage = () => {
                 The For The Women (FTW) Retreat started as an experiment. What could a yoga retreat be without the yoga? What could a personal retreat with a collective of creative women look like?
               </p>
               <p className="subhead-2">
-                Last winter, on a beautiful, tranquil beach in Jamaica, we gathered for the beta FTW Retreat in a white house with a pool and plenty of nooks.
+                This October, we invite you to join us for the official first edition of FTW Retreat in Québec, Canada. As the striking autumn colors quietly take over the peaks of the Laurentian Mountains, we will gather in the modern house on the slopeside with a hot tub, a sun deck and plenty of nooks.
               </p>
               <p className="subhead-2">
-                The unstructured days were filled with quiet reflections and creative endeavors. We came together for authentic home cooking, stories, and laughter. And we left feeling rested, renewed, and inspired.
+                The unstructured days will be filled with quiet reflections and creative endeavors. We will come together for authentic home cooking, stories, and laughter. And we will leave feeling rested, renewed, and inspired.
               </p>
               <p className="subhead-2">
-                This fall, we invite you to join us for the official first edition of FTW Retreat in North America. To advance into possibilities with grace, we retreat as women together. We will rest, and create an experience that’s both a personal retreat and a group vacation with your girlfriends. You won’t find this anywhere else.
+                To advance into possibilities with grace, we retreat as women together. We will rest, and create an experience that’s both a personal retreat and a group vacation with your girlfriends. You won’t find this anywhere else.
               </p>
               <p className="subhead-2">
-                The details are in the works. Sign up for announcements and more.
+                Mark your calendar. More details will be announced in the coming days.
               </p>
               <p className="subhead-2">
                 Kuan Luo
