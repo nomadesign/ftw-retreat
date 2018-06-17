@@ -29,6 +29,20 @@
   }
 }
 
+.hero-place-dot{
+  display: none;
+  @media only screen and (min-width: $breakpoint-small) {
+    display: inline;
+  }
+}
+
+.hero-place{
+  display: block;
+  @media only screen and (min-width: $breakpoint-small) {
+    display: inline;
+  }
+}
+
 .hero-images-container{
   @media only screen and (min-width: $breakpoint-large) {
     max-width: 76em;
