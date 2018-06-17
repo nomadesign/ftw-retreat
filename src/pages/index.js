@@ -4,6 +4,7 @@ import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
 import imgHeroShape from 'images/hero-shape.svg';
+import imgHeroSignature from 'images/hero-signature.svg';
 import imgSignature from 'images/history-signature.svg';
 import imgAvatarBecca from 'images/avatar-becca.png';
 import imgOrganizerShape from 'images/organizer-shape.svg';
@@ -20,10 +21,16 @@ const IndexPage = () => {
             <div className="col-1" />
             <div className="col-11">
               <h1 className="headline">A beautiful retreat for creative women</h1>
+              <h2 className="title-2">
+                October 4-8, 2018 ∙ Mont Tremblant, Québec
+                <img src={imgHeroSignature} className="hero-signature" />
+              </h2>
               <SubscribeForm />
             </div>
           </div>
+        </div>
 
+        <div className="container hero-images-container">
           <div className="row">
             <div className="col-5">
               <img src={imgHero01} className="hidden-sm" />
