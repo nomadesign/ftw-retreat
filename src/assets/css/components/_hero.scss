@@ -1,9 +1,14 @@
 .hero{
-  padding-top: $baseline * 4;
+  padding-top: $baseline * 2;
   padding-bottom:  $baseline * 18;
 
   .headline{
-    margin-bottom: $baseline * 8;
+    margin-bottom: $baseline * 4;
+  }
+  .title-2{
+    margin-bottom: $baseline * 12;
+    position: relative;
+    color: $color-body;
   }
   .subhead-2 {
     margin-bottom: $baseline;
@@ -18,7 +23,20 @@
   img.hero-shape{
     position: absolute;
     left: 0;
-    transform: translate(-18%, 24%);
+    transform: translate(-14%, 28%);
     width: 70%;
+    max-width: 425px;
   }
+}
+
+.hero-images-container{
+  @media only screen and (min-width: $breakpoint-large) {
+    max-width: 76em;
+  }
+}
+
+.hero-signature{
+  position: absolute;
+  bottom: $baseline * 3 * -1;
+  left:  -2px;
 }
