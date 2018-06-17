@@ -22,7 +22,9 @@ const IndexPage = () => {
             <div className="col-11">
               <h1 className="headline">A beautiful retreat for creative women</h1>
               <h2 className="title-2">
-                October 4-8, 2018 ∙ Mont Tremblant, Québec
+                October 4-8, 2018
+                <span className="hero-place-dot"> ∙ </span>
+                <span className="hero-place">Mont Tremblant, Québec</span>
                 <img src={imgHeroSignature} className="hero-signature" />
               </h2>
               <SubscribeForm />

@@ -54,9 +54,10 @@ a {
 }
 
 .headline {
-  font-size: 44px;
+  font-size: 56px;
   color: $color-title;
   letter-spacing: 0;
+  line-height: 64px;
 
 
   @media only screen and (min-width: $breakpoint-small) {
