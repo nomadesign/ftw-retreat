@@ -10,7 +10,14 @@ const Header = ({ siteTitle }) => (
           <Link to="/">
             <img src={logo} alt={siteTitle} />{' '}
           </Link>
-          <h3 className="body-2 hidden-sm">Oct 4-8, 2018</h3>
+          <nav className="header-nav">
+            <Link to="/FAQ">
+              FAQ
+            </Link>
+            <Link to="/" className="button">
+              Book Now!
+            </Link>
+          </nav>
         </header>
       </div>
     </div>

@@ -18,3 +18,16 @@
     }
   }
 }
+
+.header-nav{
+  font-size: 19px;
+  
+  a{
+    display: inline-block;
+    margin-right: $baseline * 4;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
