@@ -4,8 +4,8 @@ import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
 import imgHeroShape from 'images/hero-shape.svg';
-import imgHeroSignature from 'images/hero-signature.svg';
-import imgSignature from 'images/history-signature.svg';
+import imgHeroUnderline from 'images/hero-underline.svg';
+import imgUnderline from 'images/history-underline.svg';
 import imgAvatarBecca from 'images/avatar-becca.png';
 import imgOrganizerShape from 'images/organizer-shape.svg';
 import imgOrganizerKuan from 'images/organizer-kuan.jpg';
@@ -25,7 +25,7 @@ const IndexPage = () => {
                 October 4-8, 2018
                 <span className="hero-place-dot"> ∙ </span>
                 <span className="hero-place">Mont Tremblant, Québec</span>
-                <img src={imgHeroSignature} className="hero-signature" />
+                <img src={imgHeroUnderline} className="hero-underline" />
               </h2>
             </div>
           </div>
@@ -73,7 +73,7 @@ const IndexPage = () => {
               </p>
               <p className="subhead-2">
                 Kuan Luo
-                <img src={imgSignature} className="history-signature" />
+                <img src={imgUnderline} className="history-underline" />
               </p>
             </div>
           </div>
