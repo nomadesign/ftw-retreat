@@ -27,7 +27,6 @@ const IndexPage = () => {
                 <span className="hero-place">Mont Tremblant, Québec</span>
                 <img src={imgHeroSignature} className="hero-signature" />
               </h2>
-              <SubscribeForm />
             </div>
           </div>
         </div>
