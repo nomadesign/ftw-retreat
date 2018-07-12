@@ -39,11 +39,7 @@ body {
 
 
 a {
-
-  &,
-  &:visited{
-      color: $color-title;
-  }
+  color: $color-title;
 
   &:hover{
     color: lighten($color-title, 10%);
@@ -144,6 +140,7 @@ hr{
 // Components
 @import "components/header";
 @import "components/hero";
+@import "components/button";
 @import "components/history";
 @import "components/testimonial";
 @import "components/organizer";
