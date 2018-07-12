@@ -7,8 +7,8 @@ const Footer = ({ showMoreQuestions, buttonLabel }) => (
       {buttonLabel}
     </Link>
     {showMoreQuestions && (
-      <div>
-        Got more questions? Check out our   <Link to="/faq" className="underline">FAQ</Link>.
+      <div className="booking-button-faq">
+        Got more questions? Check out our <Link to="/faq" className="underline">FAQ</Link>.
       </div>
     )}
   </section>

@@ -4,6 +4,9 @@ import BookingButton from 'components/BookingButton';
 import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
+import imgHouse from 'images/house.png';
+import imgHouseSM from 'images/house-sm.jpg';
+import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
 import UnderlineHero from 'images/hero-underline.svg';
 import UnderlineDescription1 from 'images/description-underline-1.svg';
@@ -48,6 +51,7 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+
 
       <section className="description">
         <div className="container">
@@ -108,6 +112,42 @@ const IndexPage = () => {
               <BookingButton buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="house">
+
+        <div className="container house-images-container">
+          <div className="row">
+            <div className="col-12">
+              <img src={imgHouseShape} className="house-shape" />
+              <img src={imgHouseSM} className="house-image-s" />
+              <img src={imgHouse} className="house-image-l" />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+
+          <div className="row">
+            <div className="col-1" />
+            <div className="col-10">
+              <h3 className="title-1">The House in Mont Tremblant, Québec</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-2" />
+            <div className="col-8">
+              <p className="subhead-2">
+                A picturesque drive just 1.5 hours from Montreal, the eight-bedroom, contemporary residence will be our homebase for the retreat. Watch the fall leaves spectacle from the deck, indulge in a soak in the outdoor hot tub, and get comfortable in the two seperate living areas. Next to the Mont Tremblant National Park, there is easy access next to gondola rides, hikes, bike trails and many water activities on Lake Tremblant.
+              </p>
+
+              <BookingButton buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
+            </div>
+          </div>
+
+
         </div>
       </section>
 

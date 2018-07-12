@@ -18,14 +18,6 @@ const Footer = ({ showRegistration }) => (
 
     <div className="container">
       <div className="row">
-        <div className="col-12">
-          <hr />
-        </div>
-      </div>
-    </div>
-
-    <div className="container">
-      <div className="row">
         <div className="col-4">
           <a href="mailto:contact@forthewomenretreat.com" target="_blank" className="media">
             <img src={iconEmail} width="24" className="media-figure" />
