@@ -8,7 +8,16 @@ const PrivacyPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <p className="title-1">Privacy Policy</p>
+            <h1 className="title-1">Privacy Policy</h1>
+
+
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-1" />
+          <div className="col-10">
+
             <p className="body-2">
               This Privacy Policy describes how your personal information is collected, used, and shared when you visit{' '}
               <Link to="/">forthewomenretreat.com</Link> (the “Site”).
