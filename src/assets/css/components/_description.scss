@@ -1,0 +1,40 @@
+.description{
+  margin-bottom: $baseline * 12;
+
+  .title-1{
+    color: $color-light;
+    margin-bottom: $baseline * 4;
+    strong{
+      font-weight: normal;
+      color: $color-title;
+    }
+  }
+
+}
+
+.description-history{
+  margin-bottom: $baseline * 9;
+
+  .subhead-2{
+    margin-bottom: $baseline * 3;
+    &:last-child{
+      margin-bottom: $baseline * 0;
+    }
+  }
+}
+
+.description-glance{
+  .title-3{
+    margin-bottom: $baseline * 2;
+    position: relative;
+  }
+  margin-bottom: $baseline * 11;
+}
+
+.description-underline-1,
+.description-underline-2,
+.description-underline-3{
+  position: absolute;
+  bottom: $baseline * 1.5 * -1;
+  left:  -2px;
+}

@@ -1,0 +1,13 @@
+.booking-button{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  color: $color-body;
+
+  .button{
+    margin-right: $baseline * 2;
+  }
+
+
+}

@@ -41,6 +41,10 @@ body {
 a {
   color: $color-title;
 
+  &.underline{
+    text-decoration: underline;
+  }
+
   &:hover{
     color: lighten($color-title, 10%);
   }
@@ -74,6 +78,13 @@ a {
   color: $color-title;
   letter-spacing: 0;
   line-height: 32px;
+}
+
+.title-3{
+  font-size: 21px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 28px;
 }
 
 .subhead-1 {
@@ -141,9 +152,10 @@ hr{
 @import "components/header";
 @import "components/hero";
 @import "components/button";
-@import "components/history";
+@import "components/description";
 @import "components/testimonial";
 @import "components/organizer";
 @import "components/subscribe";
+@import "components/booking-button";
 @import "components/privacy";
 @import "components/footer";

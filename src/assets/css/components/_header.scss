@@ -20,14 +20,14 @@
 }
 
 .header-nav{
-  font-size: 19px;
-  
-  a{
-    display: inline-block;
-    margin-right: $baseline * 4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-    &:last-child{
-      margin-right: 0;
-    }
-  }
+.header-nav-faq{
+  font-size: 19px;
+  line-height: 52px;
+  margin-right: $baseline * 4;
+  display: inline-block;
 }

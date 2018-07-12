@@ -1,4 +1,5 @@
 import React from 'react';
+import BookingButton from 'components/BookingButton';
 import Link from 'gatsby-link';
 import logo from 'images/header-logo.svg';
 
@@ -11,12 +12,10 @@ const Header = ({ siteTitle }) => (
             <img src={logo} alt={siteTitle} />{' '}
           </Link>
           <nav className="header-nav">
-            <Link to="/FAQ">
+            <Link to="/faq" className="header-nav-faq">
               FAQ
             </Link>
-            <Link to="/" className="button">
-              Book Now!
-            </Link>
+            <BookingButton buttonLabel="Book Now!" />
           </nav>
         </header>
       </div>
