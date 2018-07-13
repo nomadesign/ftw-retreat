@@ -9,7 +9,8 @@
     "gatsby-plugin-react-helmet": "~2.0.10",
     "gatsby-plugin-sass": "~1.0.26",
     "react-helmet": "~5.2.0",
-    "react-mailchimp-subscribe": "~2.0.2"
+    "react-mailchimp-subscribe": "~2.0.2",
+    "uuid": "~3.3.2"
   },
   "license": "MIT",
   "scripts": {
