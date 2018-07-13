@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import BookingButton from 'components/BookingButton';
+import CheckoutButton from 'components/CheckoutButton';
 import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
@@ -17,6 +17,9 @@ import imgOrganizerShape from 'images/organizer-shape.svg';
 import imgOrganizerKuan from 'images/organizer-kuan.jpg';
 import iconWebsite from 'images/icon-website.svg';
 import iconTwitter from 'images/icon-twitter.svg';
+
+
+const eventID = '47804001054';
 
 const IndexPage = () => {
   return (
@@ -109,7 +112,7 @@ const IndexPage = () => {
                 </p>
               </div>
 
-              <BookingButton buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
+              <CheckoutButton id={eventID} buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
             </div>
           </div>
         </div>
@@ -143,7 +146,7 @@ const IndexPage = () => {
                 A picturesque drive just 1.5 hours from Montreal, the eight-bedroom, contemporary residence will be our homebase for the retreat. Watch the fall leaves spectacle from the deck, indulge in a soak in the outdoor hot tub, and get comfortable in the two seperate living areas. Next to the Mont Tremblant National Park, there is easy access next to gondola rides, hikes, bike trails and many water activities on Lake Tremblant.
               </p>
 
-              <BookingButton buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
+              <CheckoutButton id={eventID} buttonLabel="Reserve Your Spot" showMoreQuestions={true} />
             </div>
           </div>
 
