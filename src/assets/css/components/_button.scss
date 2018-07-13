@@ -1,4 +1,10 @@
 .button{
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  box-shadow: none;
+  outline: none;
+  border: 0;
   background: $brand-color-1;
   border-radius: 2px;
   height: 52px;
@@ -9,6 +15,7 @@
   font-weight: 600;
   padding:0 16px;
   display: inline-block;
+  cursor: pointer;
 
   &:hover{
     color: $color-white;
