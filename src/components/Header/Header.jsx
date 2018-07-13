@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/faq" className="header-nav-faq">
               FAQ
             </Link>
-            <CheckoutButton id={eventID} buttonLabel="Book Now!" />
+            <CheckoutButton id={eventID} />
           </nav>
         </header>
       </div>

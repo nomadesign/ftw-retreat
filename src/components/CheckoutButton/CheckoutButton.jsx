@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 class CheckoutButton extends React.Component {
   componentDidMount() {
-    const { id, showMoreQuestions, buttonLabel } = this.props;
+    const { id, showSecondaryCTA } = this.props;
 
     window.EBWidgets.createWidget({
       widgetType: 'checkout',
@@ -13,14 +13,14 @@ class CheckoutButton extends React.Component {
     });
   }
   render() {
-    const { id, showMoreQuestions, buttonLabel } = this.props;
+    const { id, showSecondaryCTA } = this.props;
 
     return (
       <section className="checkout-button">
         <button id={`eventbrite-widget-modal-trigger-${id}`} className="button" type="button">
-          {buttonLabel}
+          Reserve Your Spot
         </button>
-        {showMoreQuestions && (
+        {showSecondaryCTA && (
           <div className="checkout-button-faq">
             Got more questions? Check out our <Link to="/faq" className="underline">FAQ</Link>.
           </div>
