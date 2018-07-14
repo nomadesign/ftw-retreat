@@ -1,4 +1,4 @@
- .booking-button{
+ .checkout-button{
 
   color: $color-body;
 
@@ -13,9 +13,9 @@
   }
 }
 
-.booking-button-faq{
+.checkout-button-faq{
   padding-top: $baseline * 2;
-  
+
   @media only screen and (min-width: $breakpoint-large) {
     padding: 0;
   }

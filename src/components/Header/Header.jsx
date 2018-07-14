@@ -1,7 +1,10 @@
 import React from 'react';
-import BookingButton from 'components/BookingButton';
+import CheckoutButton from 'components/CheckoutButton';
 import Link from 'gatsby-link';
 import logo from 'images/header-logo.svg';
+
+
+const eventID = '47804001054';
 
 const Header = ({ siteTitle }) => (
   <div className="container">
@@ -15,7 +18,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/faq" className="header-nav-faq">
               FAQ
             </Link>
-            <BookingButton buttonLabel="Book Now!" />
+            <CheckoutButton id={eventID} />
           </nav>
         </header>
       </div>
