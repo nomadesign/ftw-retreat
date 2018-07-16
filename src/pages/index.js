@@ -63,18 +63,22 @@ const IndexPage = () => {
             <div className="row">
               <div className="col-4">
                 <h3 className="title-3">
-                  Intentionally Small
+                  10 Women
                   <img src={UnderlineDescription1} className="description-underline-1" />
                 </h3>
-                <p className="subhead-2">Share homemade meals, stories, and restful days with a total of 10 women. </p>
+                <p className="subhead-2">
+                  The retreat is intentionally small so we can share meals and tales around one table.
+                </p>
               </div>
 
               <div className="col-4">
                 <h3 className="title-3">
-                  All-inclusive
+                  5 Days
                   <img src={UnderlineDescription2} className="description-underline-2" />
                 </h3>
-                <p className="subhead-2">Just get to Montréal, Québec and we will take care of the rest.</p>
+                <p className="subhead-2">
+                  Five days of pliable days. Honor the reader, artist and outdoorswoman in all of us.
+                </p>
               </div>
 
               <div className="col-4">
@@ -82,7 +86,9 @@ const IndexPage = () => {
                   Agenda Free
                   <img src={UnderlineDescription3} className="description-underline-3" />
                 </h3>
-                <p className="subhead-2">Five days of pliable time. Honor the reader, artist and outdoorswoman in all of us.</p>
+                <p className="subhead-2">
+                  Sleep in or wake up early for a sunrise hike. The retreat is yours to play.
+                </p>
               </div>
             </div>
           </div>

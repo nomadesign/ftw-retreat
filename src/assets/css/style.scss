@@ -53,6 +53,12 @@ a {
   }
 }
 
+
+strong{
+  font-weight: 600;
+  color: $color-title;
+}
+
 .headline {
   font-size: 56px;
   color: $color-title;
@@ -115,6 +121,21 @@ a {
   @extend .body-1;
   color: $color-light;
   font-size: 15px;
+}
+
+
+.body-list {
+  @extend .body-1;
+  color: $color-body;
+  li{
+    margin-left: 2em;
+  }
+  li::before {
+    content: "•";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 }
 
 .caption-1{
