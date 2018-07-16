@@ -1,0 +1,22 @@
+ .checkout-button{
+
+  color: $color-body;
+
+  @media only screen and (min-width: $breakpoint-large) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .button{
+      margin-right: $baseline * 2;
+    }
+  }
+}
+
+.checkout-button-faq{
+  padding-top: $baseline * 2;
+
+  @media only screen and (min-width: $breakpoint-large) {
+    padding: 0;
+  }
+}

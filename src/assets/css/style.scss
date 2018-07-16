@@ -39,10 +39,10 @@ body {
 
 
 a {
+  color: $color-title;
 
-  &,
-  &:visited{
-      color: $color-title;
+  &.underline{
+    text-decoration: underline;
   }
 
   &:hover{
@@ -51,6 +51,12 @@ a {
   &:active{
     color: darken($color-title, 5%);
   }
+}
+
+
+strong{
+  font-weight: 600;
+  color: $color-title;
 }
 
 .headline {
@@ -78,6 +84,13 @@ a {
   color: $color-title;
   letter-spacing: 0;
   line-height: 32px;
+}
+
+.title-3{
+  font-size: 21px;
+  color: $color-title;
+  letter-spacing: 0;
+  line-height: 28px;
 }
 
 .subhead-1 {
@@ -108,6 +121,21 @@ a {
   @extend .body-1;
   color: $color-light;
   font-size: 15px;
+}
+
+
+.body-list {
+  @extend .body-1;
+  color: $color-body;
+  li{
+    margin-left: 2em;
+  }
+  li::before {
+    content: "•";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
 }
 
 .caption-1{
@@ -144,10 +172,13 @@ hr{
 // Components
 @import "components/header";
 @import "components/hero";
-@import "components/history";
+@import "components/button";
+@import "components/description";
+@import "components/house";
 @import "components/testimonial";
 @import "components/organizer";
 @import "components/subscribe";
+@import "components/checkout-button";
 @import "components/privacy";
 @import "components/faq";
 @import "components/footer";

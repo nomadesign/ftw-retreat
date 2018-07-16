@@ -1,10 +1,7 @@
 .footer{
+  padding: $baseline * 11 0 $baseline * 16;
   background-color: $background-color-darker;
-  padding: $baseline * 16 0;
 
-  hr{
-    margin-bottom: $baseline * 12;
-  }
 
   a{
     @extend .body-2;

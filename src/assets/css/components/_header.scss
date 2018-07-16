@@ -18,3 +18,16 @@
     }
   }
 }
+
+.header-nav{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-nav-faq{
+  font-size: 19px;
+  line-height: 52px;
+  margin-right: $baseline * 4;
+  display: inline-block;
+}

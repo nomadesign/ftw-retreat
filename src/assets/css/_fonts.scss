@@ -6,3 +6,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'circular';
+	src: url('../fonts/circular-medium.eot');
+	src: local('☺'), url('../fonts/circular-medium.woff') format('woff'), url('../fonts/circular-medium.ttf') format('truetype'), url('../fonts/circular-medium.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
