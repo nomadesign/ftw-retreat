@@ -1,0 +1,51 @@
+.house{
+  margin-bottom: $baseline * 14;
+  padding: $baseline * 14 0;
+  background-color: $background-color-darker;
+
+  .title-1{
+    margin-bottom: $baseline * 4;
+  }
+  .subhead-2{
+    margin-bottom: $baseline * 9;
+  }
+}
+
+.house-images-container{
+  margin-bottom: $baseline * 11;
+  margin-top: $baseline * 28 * -1;
+  position: relative;
+
+
+  .house-image-l{
+
+    display: none;
+  }
+
+  .house-image-s{
+    position: relative;
+  }
+
+  .house-shape{
+    display: block;
+    position: absolute;
+    left: 0;
+    transform: translate(78%, 18%);
+    width: 60%;
+    max-width: 425px;
+  }
+
+  @media only screen and (min-width: $breakpoint-med) {
+    margin-top: $baseline * 42 * -1;
+    max-width: 76em;
+
+    .house-image-l{
+      display: block;
+    }
+    .house-image-s,
+    .house-shape{
+      display: none;
+    }
+
+  }
+}

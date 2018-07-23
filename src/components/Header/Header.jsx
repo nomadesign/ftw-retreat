@@ -1,6 +1,10 @@
 import React from 'react';
+import CheckoutButton from 'components/CheckoutButton';
 import Link from 'gatsby-link';
 import logo from 'images/header-logo.svg';
+
+
+const eventID = '47804001054';
 
 const Header = ({ siteTitle }) => (
   <div className="container">
@@ -10,7 +14,12 @@ const Header = ({ siteTitle }) => (
           <Link to="/">
             <img src={logo} alt={siteTitle} />{' '}
           </Link>
-          <h3 className="body-2 hidden-sm">Oct 4-8, 2018</h3>
+          <nav className="header-nav">
+            <Link to="/faq" className="header-nav-faq">
+              FAQ
+            </Link>
+            <CheckoutButton id={eventID} />
+          </nav>
         </header>
       </div>
     </div>
