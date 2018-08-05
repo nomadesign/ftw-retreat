@@ -60,7 +60,7 @@ const FaqPage = () => (
 
       </div>
     </section>
-    <Footer />
+    <Footer showRegistration="true" />
   </div>
 );
 

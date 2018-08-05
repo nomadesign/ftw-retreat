@@ -238,7 +238,7 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer showRegistration="true" />
 
       <SubscribeModal />
     </div>

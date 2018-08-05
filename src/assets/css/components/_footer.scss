@@ -1,7 +1,5 @@
 .footer{
-  padding: $baseline * 11 0 $baseline * 16;
-  background-color: $background-color-darker;
-
+  padding: $baseline * 11 0 0 0;
 
   a{
     @extend .body-2;
@@ -31,8 +29,12 @@ a.footer-privacy{
 }
 
 .footer-quote {
-
   @media only screen and (min-width: $breakpoint-med) {
     text-align: right;
   }
+}
+
+.footer-wrapper{
+  padding: $baseline * 11 0 $baseline * 16;
+  background-color: $background-color-darker;
 }
