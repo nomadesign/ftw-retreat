@@ -1,9 +1,5 @@
 .description{
-  margin-bottom: $baseline * 28;
-
-  @media only screen and (min-width: $breakpoint-med) {
-    margin-bottom: $baseline * 42;
-  }
+  margin-bottom: $baseline * 16;
 
   .title-1{
     color: $color-light;

@@ -8,7 +8,10 @@ import imgHouse from 'images/house.png';
 import imgHouseSM from 'images/house-sm.jpg';
 import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
+import imgAgendaShape1 from 'images/agenda-shape-1.svg';
+import imgAgendaShape2 from 'images/agenda-shape-2.svg';
 import UnderlineHero from 'images/hero-underline.svg';
+import UnderlineAgenda from 'images/agenda-underline.svg';
 import UnderlineDescription1 from 'images/description-underline-1.svg';
 import UnderlineDescription2 from 'images/description-underline-2.svg';
 import UnderlineDescription3 from 'images/description-underline-3.svg';
@@ -119,6 +122,219 @@ const IndexPage = () => {
               </div>
 
               <CheckoutButton id={eventID} showSecondaryCTA={true} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="agenda">
+        <div className="container agenda-container">
+          <div className="row">
+            <div className="col-12">
+
+              <div className="agenda-wrapper">
+
+                <h1 className="title-1">
+                  Agenda
+                  <img src={UnderlineAgenda} className="agenda-underline" />
+                </h1>
+
+
+                <div className="agenda-items">
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 1</h3>
+                    <h2 className="caption-2">Thursday, Oct 4</h2>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">4-6 PM</span>
+                      <div className="agenda-item-title">
+                        Check-In
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        8:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Introductions + opening circle
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 2</h3>
+                    <h2 className="caption-2">Friday, Oct 5</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Self-serving breakfast
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Hike in Mt. Tremblant National Park
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 3</h3>
+                    <h2 className="caption-2">Saturday, Oct 6</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Self-serving breakfast
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Funicular ride up Mt. Tremblant
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 4</h3>
+                    <h2 className="caption-2">Sunday, Oct 7</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Self-serving breakfast
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Explore town of Mt. Tremblant
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        8:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Closing circle
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 5</h3>
+                    <h2 className="caption-2">Monday, Oct 8</h2>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        9:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Breakfast
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        11:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Packing out
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+
+
+              <img src={imgAgendaShape1} className="agenda-shape-1" />
             </div>
           </div>
         </div>
