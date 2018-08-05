@@ -15,6 +15,7 @@ module.exports = class HTML extends React.Component {
     if (process.env.NODE_ENV === `production`) {
       css = <style id="gatsby-inlined-css" dangerouslySetInnerHTML={{ __html: stylesStr }} />;
     }
+
     return (
       <html {...this.props.htmlAttributes}>
         <head>
@@ -24,6 +25,11 @@ module.exports = class HTML extends React.Component {
           {this.props.headComponents}
           {css}
           <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js" />
+          <script
+            type="text/javascript"
+            src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
+            data-dojo-config="usePlainJson: true, isDebug: false"
+          />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
