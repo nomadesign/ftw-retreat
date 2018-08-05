@@ -33,7 +33,7 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-1" />
             <div className="col-11">
-              <h1 className="headline">A beautiful retreat for creative women</h1>
+              <h1 className="headline">A 5-day creative retreat for women leaders in tech</h1>
               <h2 className="title-2">
                 October 4-8, 2018
                 <span className="hero-place-dot"> ∙ </span>
