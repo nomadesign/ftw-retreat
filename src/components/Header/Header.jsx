@@ -17,9 +17,9 @@ const Header = ({ siteTitle }) => (
               <img src={logo} alt={siteTitle} />{' '}
             </Link>
             <nav className="header-nav">
-              <Link to="/faq" className="header-nav-faq">
-                FAQ
-              </Link>
+              <a href="https://medium.com/@ftwretreat" className="header-nav-faq" target="_blank">
+                Blog
+              </a>
               <CheckoutButton id={eventID} />
             </nav>
           </header>
