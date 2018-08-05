@@ -29,6 +29,7 @@ body {
   margin: 0;
   position: relative;
   color: $color-title;
+  padding-top: $baseline * 11;
 
   @media only screen and (min-width: $breakpoint-large) {
     border: $__body-border solid $background-color-darker;
