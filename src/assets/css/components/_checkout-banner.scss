@@ -9,7 +9,8 @@
   .subhead-1 {
     width: 100%;
     display: block;
-    line-height: $baseline * 8;
+    line-height: $baseline * 4;
+    padding: $baseline * 2;
     color: white;
     cursor: pointer;
   }
