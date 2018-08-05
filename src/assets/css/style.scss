@@ -29,7 +29,6 @@ body {
   margin: 0;
   position: relative;
   color: $color-title;
-  padding-top: $baseline * 8 - $__body-border;
 
   @media only screen and (min-width: $breakpoint-large) {
     border: $__body-border solid $background-color-darker;
@@ -179,6 +178,7 @@ hr{
 @import "components/organizer";
 @import "components/subscribe";
 @import "components/checkout-button";
+@import "components/checkout-banner";
 @import "components/privacy";
 @import "components/faq";
 @import "components/footer";
