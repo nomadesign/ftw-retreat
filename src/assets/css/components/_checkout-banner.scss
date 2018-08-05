@@ -1,15 +1,16 @@
-.checkout-banner{
+.checkout-banner {
   background-color: $brand-color-1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
   margin-bottom: $baseline * 3;
-  
-  .subhead-1{
+
+  .subhead-1 {
     width: 100%;
     display: block;
     line-height: $baseline * 8;
     color: white;
+    cursor: pointer;
   }
 }
