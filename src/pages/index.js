@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import CheckoutButton from 'components/CheckoutButton';
+import SubscribeModal from 'components/SubscribeModal';
 import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
@@ -238,6 +239,8 @@ const IndexPage = () => {
       </section>
 
       <Footer />
+
+      <SubscribeModal />
     </div>
   );
 };
