@@ -10,7 +10,8 @@ const SubscribeFormContents = ({ status, message, subscribe }) => {
 
   return (
     <section className="subscribe-form">
-      {status !== 'success' && <p className="subhead-2">Sign up to be the first to know when registration opens</p>}
+      {status !== 'success' && <p className="title-2">Join our newsletter</p>}
+      {status !== 'success' && <p className="subhead-2">Up-to-date retreat info, interviews with badass women in tech, etc</p>}
       {status !== 'success' && (
         <form className="subscribe-form-wrapper" onSubmit={submit}>
           <input
