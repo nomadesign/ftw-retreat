@@ -101,7 +101,7 @@ const IndexPage = () => {
             <div className="col-1" />
             <div className="col-9">
               <p className="title-1">
-              <strong>Being women leaders in tech is a lonely affair.</strong> Join For the Women (FTW) Retreat, a 5-day creative retreat for women leader in tech to connect, share doubts and dreams, and learn from each other.
+              <strong>Being a woman leader in tech is a lonely affair.</strong> Join For the Women (FTW) Retreat, a 5-day creative retreat for women leaders in tech to connect, share doubts and dreams, and learn from each other.
               </p>
             </div>
           </div>
