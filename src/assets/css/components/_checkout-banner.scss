@@ -1,0 +1,21 @@
+.checkout-banner {
+  background-color: $brand-color-1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+
+  .subhead-1 {
+    width: 100%;
+    display: block;
+    line-height: $baseline * 4;
+    padding: $baseline * 2;
+    color: white;
+    cursor: pointer;
+  }
+}

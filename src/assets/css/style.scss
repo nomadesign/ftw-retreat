@@ -29,7 +29,7 @@ body {
   margin: 0;
   position: relative;
   color: $color-title;
-  padding-top: $baseline * 8 - $__body-border;
+  padding-top: $baseline * 11;
 
   @media only screen and (min-width: $breakpoint-large) {
     border: $__body-border solid $background-color-darker;
@@ -168,10 +168,19 @@ hr{
   background: $color-divider-light;
 }
 
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0, 0.4);
+}
 
 // Components
 @import "components/header";
 @import "components/hero";
+@import "components/agenda";
 @import "components/button";
 @import "components/description";
 @import "components/house";
@@ -179,6 +188,7 @@ hr{
 @import "components/organizer";
 @import "components/subscribe";
 @import "components/checkout-button";
+@import "components/checkout-banner";
 @import "components/privacy";
 @import "components/faq";
 @import "components/footer";

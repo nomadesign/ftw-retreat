@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import CheckoutButton from 'components/CheckoutButton';
+import SubscribeModal from 'components/SubscribeModal';
 import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
@@ -8,7 +9,10 @@ import imgHouse from 'images/house.png';
 import imgHouseSM from 'images/house-sm.jpg';
 import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
+import imgAgendaShape1 from 'images/agenda-shape-1.svg';
+import imgAgendaShape2 from 'images/agenda-shape-2.svg';
 import UnderlineHero from 'images/hero-underline.svg';
+import UnderlineAgenda from 'images/agenda-underline.svg';
 import UnderlineDescription1 from 'images/description-underline-1.svg';
 import UnderlineDescription2 from 'images/description-underline-2.svg';
 import UnderlineDescription3 from 'images/description-underline-3.svg';
@@ -29,7 +33,7 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-1" />
             <div className="col-11">
-              <h1 className="headline">A beautiful retreat for creative women</h1>
+              <h1 className="headline">A 5-day creative retreat for women leaders in tech</h1>
               <h2 className="title-2">
                 October 4-8, 2018
                 <span className="hero-place-dot"> ∙ </span>
@@ -63,31 +67,31 @@ const IndexPage = () => {
             <div className="row">
               <div className="col-4">
                 <h3 className="title-3">
-                  10 Women
+                  Intentionally small
                   <img src={UnderlineDescription1} className="description-underline-1" />
                 </h3>
                 <p className="subhead-2">
-                  The retreat is intentionally small so we can share meals and tales around one table.
+                  Share tales with 10 women leaders to foster deeper conversations and connections
                 </p>
               </div>
 
               <div className="col-4">
                 <h3 className="title-3">
-                  5 Days
+                  All-inclusive
                   <img src={UnderlineDescription2} className="description-underline-2" />
                 </h3>
                 <p className="subhead-2">
-                  Five days of pliable days. Honor the reader, artist and outdoorswoman in all of us.
+                  Nourishing meals daily, lodging and transportation to/from the airport are included
                 </p>
               </div>
 
               <div className="col-4">
                 <h3 className="title-3">
-                  Agenda Free
+                  Individual work time
                   <img src={UnderlineDescription3} className="description-underline-3" />
                 </h3>
                 <p className="subhead-2">
-                  Sleep in or wake up early for a sunrise hike. The retreat is yours to play.
+                  After a morning activity outdoors, the afternoons are dedicated to creative reflections
                 </p>
               </div>
             </div>
@@ -97,7 +101,7 @@ const IndexPage = () => {
             <div className="col-1" />
             <div className="col-9">
               <p className="title-1">
-              <strong>The For The Women (FTW) Retreat started as an experiment.</strong> What could a yoga retreat be without the yoga? What could a personal retreat with a collective of creative women look like?
+              <strong>Being a woman leader in tech is a lonely affair.</strong> Join For the Women (FTW) Retreat, a 5-day creative retreat for women leaders in tech to connect, share doubts and dreams, and learn from each other.
               </p>
             </div>
           </div>
@@ -108,17 +112,230 @@ const IndexPage = () => {
 
               <div className="description-history">
                 <p className="subhead-2">
-                  This October, we invite you to join us for the official first edition of FTW Retreat in Québec, Canada. As the striking autumn colors quietly take over the peaks of the Laurentian Mountains, we will gather in the modern house on the slopeside with a hot tub, a sun deck and plenty of nooks.
+                  As the striking autumn colors take over the peaks of the Laurentian Mountains, we will gather in the slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks. 
                 </p>
                 <p className="subhead-2">
-                  The unstructured days will be filled with quiet reflections and creative endeavors. We will come together for authentic home cooking, stories, and laughter. And we will leave feeling rested, renewed, and inspired.
+                  The mornings are dedicated to the beauty of the outdoors. Go for a hike, a bike ride, a gondola trip to the summit, or just take in the view for inspiration. The afternoons are dedicated to what fuels your creative force at work. Work on a novel, dream the big picture of your company, read two books, put on a sheet mask and nap, sew that jumpsuit, whatever you need to do to tap into your inner wisdom and flourish.
                 </p>
                 <p className="subhead-2">
-                  To advance into possibilities with grace, we retreat as women together. We will rest, and create an experience that’s both a personal retreat and a group vacation with your girlfriends. You won’t find this anywhere else.
+                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth. Join us this October.
                 </p>
               </div>
 
               <CheckoutButton id={eventID} showSecondaryCTA={true} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="agenda">
+        <div className="container agenda-container">
+          <div className="row">
+            <div className="col-12">
+
+              <div className="agenda-wrapper">
+
+                <h1 className="title-1">
+                  Agenda
+                  <img src={UnderlineAgenda} className="agenda-underline" />
+                </h1>
+
+
+                <div className="agenda-items">
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 1</h3>
+                    <h2 className="caption-2">Thursday, Oct 4</h2>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">4-6 PM</span>
+                      <div className="agenda-item-title">
+                        Check-In
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        8:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Introductions + opening circle
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 2</h3>
+                    <h2 className="caption-2">Friday, Oct 5</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Breakfast (self-service)
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Hike in Mt. Tremblant National Park
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 3</h3>
+                    <h2 className="caption-2">Saturday, Oct 6</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Breakfast (self-service)
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Funicular ride up Mt. Tremblant
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 4</h3>
+                    <h2 className="caption-2">Sunday, Oct 7</h2>
+                    <div className="agenda-item-entry">
+                      <div className="agenda-item-title">
+                        Breakfast (self-service)
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        10:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Explore town of Mt. Tremblant
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        12:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Lunch
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        2-5 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Creative time
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        6:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Dinner
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        8:30 PM
+                      </span>
+                      <div className="agenda-item-title">
+                        Closing circle
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="agenda-item">
+                    <h3 className="body-1">Day 5</h3>
+                    <h2 className="caption-2">Monday, Oct 8</h2>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        9:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Breakfast
+                      </div>
+                    </div>
+                    <div className="agenda-item-entry">
+                      <span className="agenda-item-time">
+                        11:00 AM
+                      </span>
+                      <div className="agenda-item-title">
+                        Packing out
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+              </div>
+
+
+              <img src={imgAgendaShape1} className="agenda-shape-1" />
             </div>
           </div>
         </div>
@@ -219,8 +436,7 @@ const IndexPage = () => {
                 <p className="body-2">
                   Kuan has a knack for designing experiences that bring people together. Trained as a journalist, yoga
                   instructor and product designer, she sees design and travel as inseparable tools for humanity to tell
-                  our own stories. Kuan dreamed of FTW Retreat last year, and is committed to bringing women together to
-                  support one another from an authentic, heartful, and creative place.
+                  our own stories. Before Kuan dreamed of FTW Retreat, she led design at Cockroach Labs and Grand St. (acquired by Etsy) amongst other tech ventures.
                 </p>
                 <a href="https://twitter.com/kuanluo" target="_blank">
                   <img src={iconTwitter} alt="Twitter" width="24" height="24" />
@@ -237,7 +453,9 @@ const IndexPage = () => {
         </div>
       </section>
 
-      <Footer />
+      <Footer showRegistration="true" />
+
+      <SubscribeModal />
     </div>
   );
 };

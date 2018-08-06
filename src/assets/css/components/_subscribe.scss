@@ -6,7 +6,6 @@
   }
 
   .footer & .subhead-2{
-    @extend .title-2;
     margin-bottom: $baseline * 2;
   }
 }
