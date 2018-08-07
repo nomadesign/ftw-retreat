@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'For the Women Retreat',
-    description: 'A beautiful retreat for creative women. Five all-inclusive days of pliable time. Coming Fall 2018.',
+    description: 'A 5-day creative retreat for women leaders in tech. Join the first edition: October 4-8, 2018 in Québec, Canada',
     keywords: 'women, retreat, creative, inclusive'
   },
   plugins: [
