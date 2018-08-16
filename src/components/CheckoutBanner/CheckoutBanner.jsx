@@ -27,7 +27,7 @@ class CheckoutBanner extends React.Component {
     return (
       <div className="checkout-banner">
         <div className="subhead-1" id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`}>
-          Registration for October 4-8 FTW Retreat in Québec is open. <u>Click to reserve your spot</u>.
+          October 4-8 FTW Retreat is almost sold out! <u>Click to reserve your spot</u>.
         </div>
       </div>
     );
