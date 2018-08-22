@@ -112,7 +112,7 @@ const IndexPage = () => {
 
               <div className="description-history">
                 <p className="subhead-2">
-                  As the striking autumn colors take over the peaks of the Laurentian Mountains, we will gather in the slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks. 
+                  As the striking autumn colors take over the peaks of the Laurentian Mountains, we will gather in the slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks.
                 </p>
                 <p className="subhead-2">
                   The mornings are dedicated to the beauty of the outdoors. Go for a hike, a bike ride, a gondola trip to the summit, or just take in the view for inspiration. The afternoons are dedicated to what fuels your creative force at work. Work on a novel, dream the big picture of your company, read two books, put on a sheet mask and nap, sew that jumpsuit, whatever you need to do to tap into your inner wisdom and flourish.
@@ -122,6 +122,8 @@ const IndexPage = () => {
                 </p>
               </div>
 
+              // Trigger mailchimp instead
+              // + Change copy to :add me to the waitlist:
               <CheckoutButton id={eventID} showSecondaryCTA={true} />
             </div>
           </div>
@@ -369,6 +371,8 @@ const IndexPage = () => {
                 A picturesque drive just 1.5 hours from Montreal, the eight-bedroom, contemporary residence will be our homebase for the retreat. Watch the fall leaves spectacle from the deck, indulge in a soak in the outdoor hot tub, and get comfortable in the two seperate living areas. Next to the Mont Tremblant National Park, there is easy access next to gondola rides, hikes, bike trails and many water activities on Lake Tremblant.
               </p>
 
+              // Trigger mailchimp instead
+              // + Change copy to :add me to the waitlist:
               <CheckoutButton id={eventID} showSecondaryCTA={true} />
             </div>
           </div>
