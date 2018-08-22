@@ -16,7 +16,6 @@ $breakpoint-large: 62em; // 940px
 // General Style
 body {
   $__body-border: 0;
-  //background: url(../assets/images/jamaica-1.jpg);
   background-color: $background-color;
   font-family: circular,sans-serif;
   font-size: 16px;
@@ -29,7 +28,7 @@ body {
   margin: 0;
   position: relative;
   color: $color-title;
-  padding-top: $baseline * 11;
+  padding-top: $baseline * 4;
 
   @media only screen and (min-width: $breakpoint-large) {
     border: $__body-border solid $background-color-darker;
