@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import CheckoutButton from 'components/CheckoutButton';
 import SubscribeModal from 'components/SubscribeModal';
+import SubscribeForm from 'components/SubscribeForm';
 import Footer from 'components/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
@@ -35,11 +36,9 @@ const IndexPage = () => {
             <div className="col-11">
               <h1 className="headline">A 5-day creative retreat for women leaders in tech</h1>
               <h2 className="title-2">
-                October 4-8, 2018
-                <span className="hero-place-dot"> ∙ </span>
-                <span className="hero-place">Mont Tremblant, Québec</span>
-                <img src={UnderlineHero} className="hero-underline" />
+                October 4-8 retreat is Québec is sold out
               </h2>
+              <SubscribeForm />
             </div>
           </div>
         </div>

@@ -3,10 +3,9 @@
   padding-bottom:  $baseline * 18;
 
   .headline{
-    margin-bottom: $baseline * 4;
+    margin-bottom: $baseline * 11;
   }
   .title-2{
-    margin-bottom: $baseline * 14;
     position: relative;
     color: $color-body;
   }
@@ -41,6 +40,23 @@
   @media only screen and (min-width: $breakpoint-small) {
     display: inline;
   }
+}
+
+.hero-badge{
+  font-size: 13px;
+  display: inline-block;
+  line-height: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 3px;
+  background:  $color-light;
+  color: white;
+  margin-left: 18px;
+  position: relative;
+  top: -3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -0.25px;
 }
 
 .hero-images-container{
