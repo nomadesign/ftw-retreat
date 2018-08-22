@@ -19,13 +19,13 @@ class CheckoutButton extends React.Component {
     });
   }
   render() {
-    const { id, showSecondaryCTA } = this.props;
+    const { id, showSecondaryCTA, label, soldOut } = this.props;
     const { uniqueID } = this.state;
 
     return (
       <section className="checkout-button">
-        <button id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`} className="button" type="button">
-          Reserve Your Spot
+        <button id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`} disabled={soldOut} className="button" type="button">
+          { label || 'Reserve Your Spot' }
         </button>
         {showSecondaryCTA && (
           <div className="checkout-button-faq">

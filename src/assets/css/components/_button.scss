@@ -25,4 +25,8 @@
     color: $color-white;
     background: darken($brand-color-1, 10%);
   }
+  &:disabled{
+    background: $color-placeholder;
+    color: white;
+  }
 }

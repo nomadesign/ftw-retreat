@@ -122,9 +122,7 @@ const IndexPage = () => {
                 </p>
               </div>
 
-              // Trigger mailchimp instead
-              // + Change copy to :add me to the waitlist:
-              <CheckoutButton id={eventID} showSecondaryCTA={true} />
+              <CheckoutButton id={eventID} showSecondaryCTA={true} label="Sold Out" soldOut={true} />
             </div>
           </div>
         </div>
@@ -371,9 +369,7 @@ const IndexPage = () => {
                 A picturesque drive just 1.5 hours from Montreal, the eight-bedroom, contemporary residence will be our homebase for the retreat. Watch the fall leaves spectacle from the deck, indulge in a soak in the outdoor hot tub, and get comfortable in the two seperate living areas. Next to the Mont Tremblant National Park, there is easy access next to gondola rides, hikes, bike trails and many water activities on Lake Tremblant.
               </p>
 
-              // Trigger mailchimp instead
-              // + Change copy to :add me to the waitlist:
-              <CheckoutButton id={eventID} showSecondaryCTA={true} />
+              <CheckoutButton id={eventID} showSecondaryCTA={true} label="Sold Out" soldOut={true} />
             </div>
           </div>
 
