@@ -117,7 +117,7 @@ const IndexPage = () => {
                   The mornings are dedicated to the beauty of the outdoors. Go for a hike, a bike ride, a gondola trip to the summit, or just take in the view for inspiration. The afternoons are dedicated to what fuels your creative force at work. Work on a novel, dream the big picture of your company, read two books, put on a sheet mask and nap, sew that jumpsuit, whatever you need to do to tap into your inner wisdom and flourish.
                 </p>
                 <p className="subhead-2">
-                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth. Join us this October.
+                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth.
                 </p>
               </div>
 
