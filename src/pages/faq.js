@@ -28,8 +28,8 @@ const FaqPage = () => (
               </ul>
             </p>
 
-            <h3 className="subhead-1">How much does the retreat cost?</h3>
-            <p className="body-2">The retreat costs between $1,250 and $1,750 depending on your room choices (most of the accommodations are private rooms with queen-size beds). It includes 4-night accommodations, nourishing meals every day and transportation to and from Montréal airport.</p>
+            <h3 className="subhead-1">How do I register for the Fall retreat?</h3>
+            <p className="body-2">Our October retreat is sold out. Join our newsletter to be receive future retreat announcements. Hope to see you on a future FTW Retreat!</p>
 
             <h3 className="subhead-1">What’s the refund policy?</h3>
             <p className="body-2">Due to the intimate nature of the retreat, your payment will be non-refundable, but transferable towards a future retreat.</p>
