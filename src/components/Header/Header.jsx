@@ -1,5 +1,4 @@
 import React from 'react';
-import CheckoutBanner from 'components/CheckoutBanner';
 import Link from 'gatsby-link';
 import logo from 'images/header-logo.svg';
 
@@ -7,7 +6,6 @@ const eventID = '47804001054';
 
 const Header = ({ siteTitle }) => (
   <section id="header">
-    <CheckoutBanner id={eventID} />
     <div className="container">
       <div className="row">
         <div className="col-12">
