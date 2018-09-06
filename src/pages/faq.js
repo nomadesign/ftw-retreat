@@ -29,7 +29,7 @@ const FaqPage = () => (
             </p>
 
             <h3 className="subhead-1">How do I register for the Fall retreat?</h3>
-            <p className="body-2">Our October retreat is sold out. Join our newsletter to be receive future retreat announcements. Hope to see you on a future FTW Retreat!</p>
+            <p className="body-2">Our October retreat is sold out. <a href="#Footer">Join our newsletter</a> to be receive future retreat announcements. Hope to see you on a future FTW Retreat!</p>
 
             <h3 className="subhead-1">What’s the refund policy?</h3>
             <p className="body-2">Due to the intimate nature of the retreat, your payment will be non-refundable, but transferable towards a future retreat.</p>

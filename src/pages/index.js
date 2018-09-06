@@ -120,7 +120,7 @@ const IndexPage = () => {
                   You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth.
                 </p>
                 <p className="subhead-2">
-                  The October retreat is sold out. Join our newsletter to be receive future retreat announcements.
+                  The October retreat is sold out. <a href="#Footer">Join our newsletter</a> to be receive future retreat announcements.
                 </p>
               </div>
 

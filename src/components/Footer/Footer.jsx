@@ -5,7 +5,7 @@ import iconEmail from 'images/icon-email.svg';
 import iconInstagram from 'images/icon-instagram.svg';
 
 const Footer = ({ showRegistration }) => (
-  <section className="footer">
+  <section id="Footer" className="footer">
     {showRegistration && (
       <div className="container">
         <div className="row">
