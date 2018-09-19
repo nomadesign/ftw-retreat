@@ -22,7 +22,7 @@ const FaqPage = () => (
             <h3 className="title-3">Purpose</h3>
 
             <p className="body-2">
-              JSConf AU 2018 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks.
+              For the Women Retreat is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks.
             </p>
             <p className="body-2">
               Conference participants or anyone interacting with the event violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
