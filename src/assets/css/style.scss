@@ -129,6 +129,7 @@ strong{
   color: $color-body;
   li{
     margin-left: 2em;
+    margin-bottom: .5em;
   }
   li::before {
     content: "•";
