@@ -129,6 +129,7 @@ strong{
   color: $color-body;
   li{
     margin-left: 2em;
+    margin-bottom: .5em;
   }
   li::before {
     content: "•";
@@ -191,4 +192,5 @@ hr{
 @import "components/checkout-banner";
 @import "components/privacy";
 @import "components/faq";
+@import "components/conduct";
 @import "components/footer";
