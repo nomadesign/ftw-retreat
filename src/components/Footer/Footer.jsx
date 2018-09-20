@@ -31,6 +31,8 @@ const Footer = ({ showRegistration }) => (
             <br />
             <Link to="/privacy/" className="footer-privacy">
               Privacy Policy
+            </Link> <span  className="footer-privacy"> - </span> <Link to="/conduct/" className="footer-privacy">
+              Code of Conduct
             </Link>
           </div>
           <div className="col-8 footer-quote">
