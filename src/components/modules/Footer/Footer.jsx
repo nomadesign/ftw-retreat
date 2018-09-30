@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import SubscribeForm from 'components/SubscribeForm';
+import SubscribeForm from 'modules/SubscribeForm';
 import iconEmail from 'images/icon-email.svg';
 import iconInstagram from 'images/icon-instagram.svg';
 
@@ -20,18 +20,20 @@ const Footer = ({ showRegistration }) => (
       <div className="container">
         <div className="row">
           <div className="col-4">
-            <a href="mailto:contact@forthewomenretreat.com" target="_blank" className="media">
-              <img src={iconEmail} width="24" className="media-figure" />
+            <a href="mailto:contact@forthewomenretreat.com" target="_blank" rel="noopener noreferrer" className="media">
+              <img src={iconEmail} width="24" className="media-figure" alt="email" />
               <div className="media-body">contact@forthewomenretreat.com</div>
             </a>
-            <a href="https://www.instagram.com/ftwretreat" target="_blank" className="media">
-              <img src={iconInstagram} width="24" className="media-figure" />
+            <a href="https://www.instagram.com/ftwretreat" target="_blank" rel="noopener noreferrer" className="media">
+              <img src={iconInstagram} width="24" className="media-figure" alt="instagram" />
               <div className="media-body">@ftwretreat</div>
             </a>
             <br />
             <Link to="/privacy/" className="footer-privacy">
               Privacy Policy
-            </Link> <span  className="footer-privacy"> - </span> <Link to="/conduct/" className="footer-privacy">
+            </Link>{' '}
+            <span className="footer-privacy"> - </span>{' '}
+            <Link to="/conduct/" className="footer-privacy">
               Code of Conduct
             </Link>
           </div>

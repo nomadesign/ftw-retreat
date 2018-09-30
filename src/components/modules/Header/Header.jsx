@@ -2,8 +2,6 @@ import React from 'react';
 import Link from 'gatsby-link';
 import logo from 'images/header-logo.svg';
 
-const eventID = '47804001054';
-
 const Header = ({ siteTitle }) => (
   <section id="header">
     <div className="container">
@@ -17,7 +15,12 @@ const Header = ({ siteTitle }) => (
               <Link to="/faq" className="header-nav-faq">
                 FAQ
               </Link>
-              <a href="https://medium.com/@ftwretreat" className="header-nav-faq" target="_blank">
+              <a
+                href="https://medium.com/@ftwretreat"
+                className="header-nav-faq"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Blog
               </a>
             </nav>
