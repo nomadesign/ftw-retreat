@@ -19,7 +19,6 @@ import imgOrganizerShape from 'images/organizer-shape.svg';
 import imgOrganizerKuan from 'images/organizer-kuan.jpg';
 import iconWebsite from 'images/icon-website.svg';
 import iconTwitter from 'images/icon-twitter.svg';
-import InstagramFeed from 'modules/InstagramFeed';
 
 const IndexPage = () => {
   return (
@@ -345,10 +344,6 @@ const IndexPage = () => {
             <div className="col-1" />
           </div>
         </div>
-      </section>
-
-      <section className="instagram">
-        <InstagramFeed />
       </section>
 
       <section className="organizer">

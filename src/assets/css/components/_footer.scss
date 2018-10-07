@@ -1,14 +1,20 @@
 .footer{
   padding: $baseline * 11 0 0 0;
 
-  a{
+  .footer-social {
     @extend .body-2;
     font-size: 15px;
     line-height: $baseline * 3;
     margin-bottom: $baseline;
+
+    .media-figure{
+      margin-right: $baseline / 1.5;
+    }
+
     img{
       opacity: .4;
     }
+
     &:hover {
       color: $color-title;
       img {
@@ -16,26 +22,26 @@
       }
     }
   }
-  .media-figure{
-    margin-right: $baseline / 1.5;
+
+
+  a.footer-privacy,
+  span.footer-privacy{
+    display: inline-block;
+    font-size: 13px;
+    color: $color-light;
+    margin-bottom: $baseline * 3;
   }
 }
 
-a.footer-privacy,
-span.footer-privacy{
-  display: inline-block;
-  font-size: 13px;
-  color: $color-light;
-  margin-bottom: $baseline * 3;
-}
-
 .footer-quote {
+  padding-top: $baseline * 4;
   @media only screen and (min-width: $breakpoint-med) {
     text-align: right;
+    padding-top: $baseline * 0;
   }
 }
 
 .footer-wrapper{
-  padding: $baseline * 11 0 $baseline * 16;
+  padding: $baseline * 11 0 $baseline * 11;
   background-color: $background-color-darker;
 }

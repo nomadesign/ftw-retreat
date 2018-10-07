@@ -15,6 +15,17 @@ class InstagramFeed extends React.Component {
       get: 'user',
       userId: process.env.INSTAGRAM_USER_ID,
       accessToken: process.env.INSTAGRAM_ACCESS_TOKEN,
+      limit: 6,
+      sortBy: 'most-recent',
+      links: true,
+      resolution: 'thumbnail',
+      template: tpl => {
+        return (
+          <a href="{{link}}" target="_blank" rel="noopener noreferrer">
+            <img src="{{image}}" />
+          </a>
+        );
+      },
       error: err => {
         this.setState({ error: err });
       }

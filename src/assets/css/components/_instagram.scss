@@ -1,7 +1,46 @@
 .instagram-feed {
-  margin-bottom: $baseline * 11;
+  padding: $baseline * 8 0;
 
-  img {
-    width: 10%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: space-between;
+
+
+  a{
+    display: block;
+    margin-right: 1%;
+    &:last-child{
+      margin-right: 0;
+    }
   }
+
+  a:nth-child(3) ~ a {
+    /* this rule targets the rows after the 3rd .row */
+    display: none;
+  }
+
+
+  @media only screen and (min-width: $breakpoint-med) {
+    a:nth-child(5) ~ a {
+      display: block;
+    }
+  }
+
+  @media only screen and (min-width: $breakpoint-large) {
+    a:nth-child(3) ~ a {
+      display: block;
+    }
+  }
+  
+  img {
+    display: block;
+  }
+}
+
+.instagram-feed-image{
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+  background: red;
 }
