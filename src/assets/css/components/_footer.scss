@@ -1,39 +1,50 @@
 .footer{
-  padding: $baseline * 11 0 0 0;
-
-  .footer-social {
-    @extend .body-2;
-    font-size: 15px;
-    line-height: $baseline * 3;
-    margin-bottom: $baseline;
-
-    .media-figure{
-      margin-right: $baseline / 1.5;
-    }
-
-    img{
-      opacity: .4;
-    }
-
-    &:hover {
-      color: $color-title;
-      img {
-        opacity: .7;
-      }
-    }
-  }
-
+  padding: $baseline * 14 0 0 0;
 
   a.footer-privacy,
   span.footer-privacy{
     display: inline-block;
+    line-height: $baseline * 3;
     font-size: 13px;
-    color: $color-light;
+    color: $color-body;
     margin-bottom: $baseline * 3;
+  }
+  a.footer-privacy:hover {
+    color: $color-title;
   }
 }
 
-.footer-quote {
+.footer-instagram {
+  @extend .body-2;
+  margin-bottom: $baseline * 2;
+  a{
+    text-decoration: underline;
+    &:hover {
+      color: $color-title;
+    }
+  }
+}
+
+.footer-social {
+  @extend .body-2;
+  font-size: 15px;
+  line-height: $baseline * 3;
+  margin-bottom: $baseline;
+
+  .media-figure{
+    margin-right: $baseline / 1.5;
+  }
+
+  img{
+    opacity: .4;
+  }
+
+  &:hover {
+    color: $color-title;
+  }
+}
+
+.footer-align-right {
   padding-top: $baseline * 4;
   @media only screen and (min-width: $breakpoint-med) {
     text-align: right;
@@ -41,7 +52,11 @@
   }
 }
 
+.footer-quote {
+  margin-bottom: $baseline * 8;
+}
+
 .footer-wrapper{
-  padding: $baseline * 11 0 $baseline * 11;
+  padding: $baseline * 14 0;
   background-color: $background-color-darker;
 }
