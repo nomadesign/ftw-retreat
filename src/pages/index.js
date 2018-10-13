@@ -36,7 +36,8 @@ const IndexPage = () => {
             <div className="col-11">
               <h1 className="headline">A 5-day creative retreat for women leaders in tech</h1>
               <h2 className="title-2">
-                October 4-8 retreat is Québec is sold out
+                Spring 2018 retreat is in the works
+                <img src={UnderlineHero} className="hero-underline" />
               </h2>
               <SubscribeForm />
             </div>
@@ -119,12 +120,8 @@ const IndexPage = () => {
                 <p className="subhead-2">
                   You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth.
                 </p>
-                <p className="subhead-2">
-                  The October retreat is sold out. <a href="#Footer">Join our newsletter</a> to be receive future retreat announcements.
-                </p>
               </div>
 
-              <CheckoutButton id={eventID} showSecondaryCTA={true} label="Sold Out" soldOut={true} />
             </div>
           </div>
         </div>
@@ -147,7 +144,6 @@ const IndexPage = () => {
 
                   <div className="agenda-item">
                     <h3 className="body-1">Day 1</h3>
-                    <h2 className="caption-2">Thursday, Oct 4</h2>
                     <div className="agenda-item-entry">
                       <span className="agenda-item-time">4-6 PM</span>
                       <div className="agenda-item-title">
@@ -174,7 +170,6 @@ const IndexPage = () => {
 
                   <div className="agenda-item">
                     <h3 className="body-1">Day 2</h3>
-                    <h2 className="caption-2">Friday, Oct 5</h2>
                     <div className="agenda-item-entry">
                       <div className="agenda-item-title">
                         Breakfast (self-service)
@@ -185,7 +180,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Hike in Mt. Tremblant National Park
+                        Group outdoor activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -217,7 +212,6 @@ const IndexPage = () => {
 
                   <div className="agenda-item">
                     <h3 className="body-1">Day 3</h3>
-                    <h2 className="caption-2">Saturday, Oct 6</h2>
                     <div className="agenda-item-entry">
                       <div className="agenda-item-title">
                         Breakfast (self-service)
@@ -228,7 +222,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Funicular ride up Mt. Tremblant
+                        Group outdoor activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -261,7 +255,6 @@ const IndexPage = () => {
 
                   <div className="agenda-item">
                     <h3 className="body-1">Day 4</h3>
-                    <h2 className="caption-2">Sunday, Oct 7</h2>
                     <div className="agenda-item-entry">
                       <div className="agenda-item-title">
                         Breakfast (self-service)
@@ -272,7 +265,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Explore town of Mt. Tremblant
+                        Group outdoor activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -312,7 +305,6 @@ const IndexPage = () => {
 
                   <div className="agenda-item">
                     <h3 className="body-1">Day 5</h3>
-                    <h2 className="caption-2">Monday, Oct 8</h2>
                     <div className="agenda-item-entry">
                       <span className="agenda-item-time">
                         9:00 AM
@@ -340,42 +332,6 @@ const IndexPage = () => {
               <img src={imgAgendaShape1} className="agenda-shape-1" />
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="house">
-
-        <div className="container house-images-container">
-          <div className="row">
-            <div className="col-12">
-              <img src={imgHouseShape} className="house-shape" />
-              <img src={imgHouseSM} className="house-image-s" />
-              <img src={imgHouse} className="house-image-l" />
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-
-          <div className="row">
-            <div className="col-1" />
-            <div className="col-10">
-              <h3 className="title-1">The House in Mont Tremblant, Québec</h3>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-2" />
-            <div className="col-8">
-              <p className="subhead-2">
-                A picturesque drive just 1.5 hours from Montreal, the eight-bedroom, contemporary residence will be our homebase for the retreat. Watch the fall leaves spectacle from the deck, indulge in a soak in the outdoor hot tub, and get comfortable in the two seperate living areas. Next to the Mont Tremblant National Park, there is easy access next to gondola rides, hikes, bike trails and many water activities on Lake Tremblant.
-              </p>
-
-              <CheckoutButton id={eventID} showSecondaryCTA={true} label="Sold Out" soldOut={true} />
-            </div>
-          </div>
-
-
         </div>
       </section>
 
