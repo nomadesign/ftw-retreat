@@ -34,11 +34,15 @@ const FaqPage = () => (
             <h3 className="subhead-1">What’s the refund policy?</h3>
             <p className="body-2">Due to the intimate nature of the retreat, your payment will be non-refundable, but transferable towards a future retreat.</p>
 
-            <h3 className="subhead-1">How to get to the retreat? </h3>
-            <p className="body-2">The house is about a 90-minute drive from downtown Montreal. The closest airport is Pierre Elliott Trudeau International Airport (YUL). We will meet at the YUL airport on Thursday, and share transportation to the house. If you plan to drive, let us know.</p>
-
-            <h3 className="subhead-1">What time should my flight arrive by and leave at? </h3>
-            <p className="body-2">Arrive at Pierre Elliott Trudeau International Airport (YUL) by 3pm on Thursday, October 4, and book your return flight no earlier than 2pm on Monday, October 8.</p>
+            <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
+            <p className="body-2">
+              Here is the list of what your company will get out of sending you to an FTW Retreat.
+              <ul className="body-list">
+                <li>You are a happier employee from being re-energized & inspired in nature and in the group.</li>
+                <li>Your team will be more productive from discussing issues that your team faces with other experienced women leaders in tech.</li>
+                <li>Your company will be on the radar for the group of women who might be looking for their next role.</li>
+              </ul>
+            </p>
 
             <h3 className="subhead-1">I’m vegan. Can I come? </h3>
             <p className="body-2">Of course. You are guaranteed to enjoy every meal.</p>
