@@ -19,13 +19,7 @@ class InstagramFeed extends React.Component {
       sortBy: 'most-recent',
       links: true,
       resolution: 'thumbnail',
-      template: tpl => {
-        return (
-          <a href="{{link}}" target="_blank" rel="noopener noreferrer">
-            <img src="{{image}}" />
-          </a>
-        );
-      },
+      template: '<a href="{{link}}" target="_blank" rel="noopener noreferrer"><img src="{{image}}" /></a>',
       error: err => {
         this.setState({ error: err });
       }
