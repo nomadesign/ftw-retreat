@@ -12,6 +12,8 @@ class CheckoutBanner extends React.Component {
     const { id, showSecondaryCTA } = this.props;
     const { uniqueID } = this.state;
 
+    if (!window.EBWidgets) return;
+
     window.EBWidgets.createWidget({
       widgetType: 'checkout',
       eventId: id,
@@ -27,7 +29,7 @@ class CheckoutBanner extends React.Component {
     return (
       <div className="checkout-banner">
         <div className="subhead-1" id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`}>
-          October 4-8 FTW Retreat is  sold out! <u>Add me to the waitlist</u>.
+          October 4-8 FTW Retreat is sold out! <u>Add me to the waitlist</u>.
         </div>
       </div>
     );
