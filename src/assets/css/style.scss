@@ -7,17 +7,17 @@ $breakpoint-med: 45em; // 720px
 $breakpoint-large: 62em; // 940px
 
 // Helpers
-@import "colors";
-@import "reset";
-@import "helpers";
-@import "fonts";
-@import "grid";
+@import 'colors';
+@import 'reset';
+@import 'helpers';
+@import 'fonts';
+@import 'grid';
 
 // General Style
 body {
   $__body-border: 0;
   background-color: $background-color;
-  font-family: circular,sans-serif;
+  font-family: circular, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: normal;
@@ -37,24 +37,22 @@ body {
   }
 }
 
-
 a {
   color: $color-title;
 
-  &.underline{
+  &.underline {
     text-decoration: underline;
   }
 
-  &:hover{
+  &:hover {
     color: lighten($color-title, 10%);
   }
-  &:active{
+  &:active {
     color: darken($color-title, 5%);
   }
 }
 
-
-strong{
+strong {
   font-weight: 600;
   color: $color-title;
 }
@@ -64,7 +62,6 @@ strong{
   color: $color-title;
   letter-spacing: 0;
   line-height: 64px;
-
 
   @media only screen and (min-width: $breakpoint-small) {
     font-size: 66px;
@@ -86,7 +83,7 @@ strong{
   line-height: 32px;
 }
 
-.title-3{
+.title-3 {
   font-size: 21px;
   color: $color-title;
   letter-spacing: 0;
@@ -123,23 +120,22 @@ strong{
   font-size: 15px;
 }
 
-
 .body-list {
   @extend .body-1;
   color: $color-body;
-  li{
+  li {
     margin-left: 2em;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   li::before {
-    content: "•";
+    content: '•';
     display: inline-block;
     width: 1em;
     margin-left: -1em;
   }
 }
 
-.caption-1{
+.caption-1 {
   font-size: 17px;
   color: $color-title;
   letter-spacing: 0;
@@ -152,45 +148,45 @@ strong{
   font-size: 15px;
 }
 
-.button{
-
+.button {
 }
 
-.error{
+.error {
   @extend .body-1;
   color: $color-error;
 }
 
-hr{
+hr {
   height: 1px;
-  border:0;
+  border: 0;
   margin: 0;
   padding: 0;
   background: $color-divider-light;
 }
 
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 // Components
-@import "components/header";
-@import "components/hero";
-@import "components/agenda";
-@import "components/button";
-@import "components/description";
-@import "components/house";
-@import "components/testimonial";
-@import "components/organizer";
-@import "components/subscribe";
-@import "components/checkout-button";
-@import "components/checkout-banner";
-@import "components/privacy";
-@import "components/faq";
-@import "components/conduct";
-@import "components/footer";
+@import 'components/header';
+@import 'components/hero';
+@import 'components/agenda';
+@import 'components/button';
+@import 'components/description';
+@import 'components/house';
+@import 'components/testimonial';
+@import 'components/organizer';
+@import 'components/subscribe';
+@import 'components/checkout-button';
+@import 'components/checkout-banner';
+@import 'components/privacy';
+@import 'components/faq';
+@import 'components/conduct';
+@import 'components/footer';
+@import 'components/instagram';

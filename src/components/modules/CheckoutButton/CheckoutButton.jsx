@@ -8,8 +8,10 @@ class CheckoutButton extends React.Component {
     this.state = { uniqueID: uuid() };
   }
   componentDidMount() {
-    const { id, showSecondaryCTA } = this.props;
+    const { id } = this.props;
     const { uniqueID } = this.state;
+
+    if (!window.EBWidgets) return;
 
     window.EBWidgets.createWidget({
       widgetType: 'checkout',
@@ -24,15 +26,21 @@ class CheckoutButton extends React.Component {
 
     return (
       <section className="checkout-button">
-        <button id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`} disabled={soldOut} className="button" type="button">
-          { label || 'Reserve Your Spot' }
+        <button
+          id={`eventbrite-widget-modal-trigger-${id}-${uniqueID}`}
+          disabled={soldOut}
+          className="button"
+          type="button"
+        >
+          {label || 'Reserve Your Spot'}
         </button>
         {showSecondaryCTA && (
           <div className="checkout-button-faq">
             Got more questions? Check out our{' '}
             <Link to="/faq" className="underline">
               FAQ
-            </Link>.
+            </Link>
+            .
           </div>
         )}
       </section>
