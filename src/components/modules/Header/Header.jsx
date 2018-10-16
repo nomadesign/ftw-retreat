@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
                 Past Retreats
                 <img src={iconChevronDown} />
                 <div className="header-sub-menu">
-                  <Link to="/retreat-fall-2018">
+                  <Link to="/retreat/fall-2018">
                     #1 - Fall 2018 in Québec
                   </Link>
                 </div>
