@@ -11,6 +11,7 @@ import imgHouseSM from 'images/house-sm.jpg';
 import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
 import imgAgendaShape1 from 'images/agenda-shape-1.svg';
+import imgAgendaShape2 from 'images/agenda-shape-2.svg';
 import UnderlineAgenda from 'images/agenda-underline.svg';
 import UnderlineHero from 'images/hero-underline.svg';
 import UnderlineDescription1 from 'images/description-underline-1.svg';
@@ -254,6 +255,7 @@ const IndexPage = () => {
               </div>
 
               <img src={imgAgendaShape1} className="agenda-shape-1" />
+              <img src={imgAgendaShape2} className="agenda-shape-2" />
             </div>
           </div>
         </div>

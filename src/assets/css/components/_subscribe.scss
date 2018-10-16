@@ -17,7 +17,7 @@
 
 .subscribe-form-wrapper{
   background: #FFFFFF;
-  border: 1px solid lighten($color-divider-light, 5%);
+  border: 1px solid $color-divider-light;
   padding: 0 $baseline 0 $baseline * 2;
   display: flex;
   align-items: flex-start;

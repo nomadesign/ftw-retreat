@@ -23,10 +23,7 @@ const Footer = ({ showRegistration }) => (
 
         <div className="row">
           <div className="col-12 center">
-            <div className="footer-quote">
-              <p className="subhead-1">“It’s very important to learn again the art of resting and relaxing.”</p>
-              <p className="body-3">⏤ Thich Nhat Hanh</p>
-            </div>
+            <hr />
           </div>
         </div>
 
