@@ -45,7 +45,7 @@ a {
   }
 
   &:hover {
-    color: lighten($color-title, 10%);
+    color: lighten($color-title, 30%);
   }
   &:active {
     color: darken($color-title, 5%);
@@ -185,6 +185,7 @@ hr {
 @import 'components/subscribe';
 @import 'components/checkout-button';
 @import 'components/checkout-banner';
+@import 'components/past-retreat';
 @import 'components/privacy';
 @import 'components/faq';
 @import 'components/conduct';
