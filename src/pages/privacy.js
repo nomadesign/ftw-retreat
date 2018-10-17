@@ -75,7 +75,7 @@ const PrivacyPage = () => (
         </div>
       </div>
     </section>
-    <Footer />
+    <Footer showRegistration="true" />
   </Shell>
 );
 

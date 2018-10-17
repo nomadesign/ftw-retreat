@@ -19,15 +19,41 @@
   }
 }
 
-.header-nav{
+.header-nav,
+.header-nav .header-nav-link{
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.header-nav-faq{
+
+.header-nav-link{
   font-size: 19px;
+  position: relative;
   line-height: 52px;
   margin-right: $baseline * 4;
   display: inline-block;
+  cursor: pointer;
+
+  &:hover > .header-sub-menu {
+    display: block;
+  }
+}
+
+.header-sub-menu{
+  position: absolute;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.12);
+  padding: 0 $baseline * 2;
+  height: 56px;
+  width: 240px;
+  text-align: right;
+  top: 44px;
+  right: 0;
+  a{
+    font-size: 19px;
+    line-height: 56px;
+    position: relative;
+  }
 }
