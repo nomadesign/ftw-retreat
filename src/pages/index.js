@@ -12,6 +12,14 @@ import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
 import imgAgendaShape1 from 'images/agenda-shape-1.svg';
 import imgAgendaShape2 from 'images/agenda-shape-2.svg';
+import imgTestimonialLara from 'images/testimonial/lara.png';
+import imgTestimonialBersabel from 'images/testimonial/bersabel.png';
+import imgTestimonialSaron from 'images/testimonial/saron.png';
+import imgTestimonialAmy from 'images/testimonial/amy.png';
+import imgTestimonialLaraShape from 'images/testimonial/lara-shape.svg';
+import imgTestimonialBersabelShape from 'images/testimonial/bersabel-shape.svg';
+import imgTestimonialSaronShape from 'images/testimonial/saron-shape.svg';
+import imgTestimonialAmyShape from 'images/testimonial/amy-shape.svg';
 import UnderlineAgenda from 'images/agenda-underline.svg';
 import UnderlineHero from 'images/hero-underline.svg';
 import UnderlineDescription1 from 'images/description-underline-1.svg';
@@ -270,41 +278,70 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-1" />
-            <div className="col-5">
-              <div className="testimonial-erin">
+          <div className="row testimonial-margin">
+            <div className="col-6">
+              <div className="testimonial-left">
                 <p className="body-2 ">
-                  “I loved this retreat! It was peaceful, calm, and lovely. All the ladies were able to separate and
-                  come together harmoniously and without judgment. I chose to spend time working on the trip, but loved
-                  participating in group meals, game nights, and idle chit chat. It was a great, supportive and kind
-                  group and a beautiful trip.”
+                  “It's not a retreat, it's an experience. Kuan took care of every little detail. Between the incredible house, the delicious food, and the amazing women, this is the perfect way to unplug and find your people.”
                 </p>
                 <div className="media">
+                  <img src={imgTestimonialSaronShape} className="testimonial-shape testimonial-shape--saron" />
+                  <img src={imgTestimonialSaron} width="48" className="media-figure" />
                   <div className="media-body">
-                    <h4 className="caption-1">Erin W.</h4>
-                    <span className="caption-2">New York, NY</span>
+                    <h4 className="caption-1">Saron Yitbarek</h4>
+                    <span className="caption-2">Developer, Podcaster, Founder of CodeNewbie</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-5">
-              <div className="testimonial-becca">
+            <div className="col-6">
+              <div className="testimonial-right">
                 <p className="body-2">
-                  “We ventured to Jamaica on our FTW Retreat. In our villa, we found time to relax. Something special
-                  happens when a group of women gets to take a trip together. Everyone brought their own work or life
-                  projects and we were able to focus, get some "us" time, and enjoy the sun in a beautiful place. We ate
-                  and drank well and enjoyed our beautiful surroundings!”
+                  “FTW Retreat was the perfect time and space to be creative (I shipped the first draft of my book!), to revel in some stillness in nature, and to learn from other boss women.”
                 </p>
                 <div className="media">
+                  <img src={imgTestimonialLaraShape} className="testimonial-shape testimonial-shape--lara" />
+                  <img src={imgTestimonialLara} width="48" className="media-figure" />
                   <div className="media-body">
-                    <h4 className="caption-1">Becca R.</h4>
-                    <span className="caption-2">Brooklyn, NY</span>
+                    <h4 className="caption-1">Lara Hogan</h4>
+                    <span className="caption-2">Engineering leadership coach and consultant</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-1" />
+          </div>
+
+          <div className="row">
+            <div className="col-6">
+              <div className="testimonial-left">
+                <p className="body-2 ">
+                  “Thanks for crafting a perfect weekend of relaxation, great food and meaningful conversation - I left feeling incredibly recharged and inspired.”
+                </p>
+                <div className="media">
+                  <img src={imgTestimonialAmyShape} className="testimonial-shape testimonial-shape--amy" />
+                  <img src={imgTestimonialAmy} width="48" className="media-figure" />
+                  <div className="media-body">
+                    <h4 className="caption-1">Amy Pan</h4>
+                    <span className="caption-2">Product management consultant</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="testimonial-right testimonial-fix">
+                <p className="body-2">
+                  “One of the most fulfilling weekends I've had in a long time -- both professionally and personally.”
+                </p>
+                <div className="media">
+                  <img src={imgTestimonialBersabelShape} className="testimonial-shape testimonial-shape--bersabel" />
+                  <img src={imgTestimonialBersabel} width="48" className="media-figure" />
+                  <div className="media-body">
+                    <h4 className="caption-1">Bersabel Tadasse</h4>
+                    <span className="caption-2">Director of Product, Mapbox</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

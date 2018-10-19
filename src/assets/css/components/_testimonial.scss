@@ -9,23 +9,55 @@
     margin-bottom: $baseline * 3;
   }
 
-  .testimonial-erin .body-2 {
+  .testimonial-fix .body-2 {
     margin-bottom: $baseline * 3 + 28px;
   }
 
-  .media{
-    align-items: center;
-    margin-bottom: $baseline * 4;
+  .caption-2 {
+    font-size: 12px;
   }
+
+  .media{
+    position: relative;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .testimonial-margin {
+    margin-bottom: $baseline * 8;
+  }
+}
+
+.testimonial-shape {
+  position: absolute;
+  z-index: -1;
+}
+.testimonial-shape--lara {
+  top: 11px;
+  left: 31px;
+}
+.testimonial-shape--bersabel {
+  top: 12px;
+  left: 33px;
+}
+.testimonial-shape--amy {
+  top: 13px;
+  left: 27px;
+}
+.testimonial-shape--saron {
+  top: 11px;
+  left: 33px;
 }
 
 
 @media only screen and (min-width: $breakpoint-large) {
-  .testimonial-erin{
-    padding-right: 10px;
+  .testimonial-left{
+    padding-left: 40px;
+    padding-right: 20px;
   }
 
-  .testimonial-becca{
-    padding-left: 10px;
+  .testimonial-right{
+    padding-left: 20px;
+    padding-right: 40px;
   }
 }
