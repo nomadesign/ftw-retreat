@@ -1,9 +1,13 @@
 .agenda{
-  margin-bottom: $baseline * 14;
+  margin-bottom: $baseline * 28;
 
   .title-1{
     position: relative;
     margin-bottom: $baseline * 6;
+  }
+
+  @media only screen and (min-width: $breakpoint-med) {
+    margin-bottom: $baseline * 46;
   }
 }
 

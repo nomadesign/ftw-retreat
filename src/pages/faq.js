@@ -16,6 +16,22 @@ const FaqPage = () => (
         <div className="row">
           <div className="col-1" />
           <div className="col-10">
+            <h3 className="subhead-1">What is FTW Retreat?</h3>
+            <p className="body-2">
+              The women who have attended the FTW Retreat describe the experience as:
+              <ul className="body-list">
+                <li>
+                  A place you can go to and have a really long, deep conversation, with a diverse group of women, that you haven't made time or space to have.
+                </li>
+                <li>
+                  A chance to spend time, have fun and converse with a diverse array of women leaders in tech.
+                </li>
+                <li>
+                  The perfect time and space to be creative, to enjoy some stillness, and to learn from other boss women.
+                </li>
+              </ul>
+            </p>
+
             <h3 className="subhead-1">What’s unique about FTW Retreat?</h3>
             <p className="body-2">
               FTW Retreat was designed to meet these two goals:
@@ -32,10 +48,9 @@ const FaqPage = () => (
               </ul>
             </p>
 
-            <h3 className="subhead-1">How do I register for the Fall retreat?</h3>
+            <h3 className="subhead-1">How do I register for the Winter retreat?</h3>
             <p className="body-2">
-              Our October retreat is sold out. <a href="#Footer">Join our newsletter</a> to be receive future retreat
-              announcements. Hope to see you on a future FTW Retreat!
+              Registration coming very soon. Be sure to sign up for our  <a href="#Footer">newsletter</a> to be in the know.
             </p>
 
             <h3 className="subhead-1">What’s the refund policy?</h3>
@@ -54,15 +69,15 @@ const FaqPage = () => (
               </ul>
             </p>
 
-            <h3 className="subhead-1">I’m vegan. Can I come? </h3>
-            <p className="body-2">Of course. You are guaranteed to enjoy every meal.</p>
-
             <h3 className="subhead-1">I’m not creative. Can I come? </h3>
             <p className="body-2">
               Creativity is the expression of doing the things you love. If you fancy the idea of having an agenda-free
               vacation with a small group of women in a beautiful house surrounded by nature, then this is the retreat
               for you.
             </p>
+
+            <h3 className="subhead-1">I’m vegetarian/gluten-free/vegan. Can I come?</h3>
+            <p className="body-2">Of course. You are guaranteed to enjoy every meal.</p>
 
             <h3 className="subhead-1">Can I have the same room as my friend if we both book a double room?</h3>
             <p className="body-2">Of course. Just let us know that you want to room together.</p>
