@@ -26,6 +26,11 @@
   .testimonial-margin {
     margin-bottom: $baseline * 8;
   }
+
+  &.testimonial--retreat {
+    padding: $baseline * 3 0 $baseline * 6;
+    margin-bottom: 0;
+  }
 }
 
 .testimonial-shape {
@@ -60,4 +65,7 @@
     padding-left: 20px;
     padding-right: 40px;
   }
+
+  .testimonial--retreat .testimonial-left{padding: 0;}
+  .testimonial--retreat .testimonial-right{padding: 0;}
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import Shell from 'layouts/Shell';
 import CheckoutButton from 'modules/CheckoutButton';
 import SubscribeModal from 'modules/SubscribeModal';
@@ -10,7 +11,6 @@ import imgHouse from 'images/house.png';
 import imgHouseSM from 'images/house-sm.jpg';
 import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
-import imgAgendaShape1 from 'images/agenda-shape-1.svg';
 import imgAgendaShape2 from 'images/agenda-shape-2.svg';
 import imgTestimonialLara from 'images/testimonial/lara.png';
 import imgTestimonialBersabel from 'images/testimonial/bersabel.png';
@@ -38,9 +38,9 @@ const IndexPage = () => {
           <div className="row">
             <div className="col-1" />
             <div className="col-11">
-              <h1 className="headline">A 5-day creative retreat for women leaders in tech</h1>
+              <h1 className="headline">A 5-day intimate retreat for women leaders in tech</h1>
               <h2 className="title-2">
-                Spring 2018 retreat is in the works
+                Feb 7-11, 2019 in Eleuthera, the Bahamas
                 <img src={UnderlineHero} className="hero-underline" />
               </h2>
               <SubscribeForm />
@@ -73,7 +73,7 @@ const IndexPage = () => {
                   <img src={UnderlineDescription1} className="description-underline-1" />
                 </h3>
                 <p className="subhead-2">
-                  Share tales with 10 women leaders to foster deeper conversations and connections
+                  Have a really long, deep conversations with a diverse group of women
                 </p>
               </div>
 
@@ -83,7 +83,7 @@ const IndexPage = () => {
                   <img src={UnderlineDescription2} className="description-underline-2" />
                 </h3>
                 <p className="subhead-2">
-                  Nourishing meals daily, lodging and transportation to/from the airport are included
+                  Nourishing meals daily, lodging and transportation to/from Nassau are included
                 </p>
               </div>
 
@@ -93,7 +93,7 @@ const IndexPage = () => {
                   <img src={UnderlineDescription3} className="description-underline-3" />
                 </h3>
                 <p className="subhead-2">
-                  After a morning activity outdoors, the afternoons are dedicated to creative reflections
+                  The afternoons are dedicated to creative endeavors and quiet reflections
                 </p>
               </div>
             </div>
@@ -103,9 +103,7 @@ const IndexPage = () => {
             <div className="col-1" />
             <div className="col-9">
               <p className="title-1">
-                <strong>Being a leader in tech and a woman at the same time is a lonely affair.</strong> Join For the
-                Women (FTW) Retreat, a 5-day creative retreat for women leaders in tech to connect, share doubts and
-                dreams, and learn from each other.
+                <strong>Being a leader in tech and a woman at the same time is a lonely affair.</strong> Join For the Women (FTW) Retreat, a 5-day intimate retreat for women leaders in tech to connect, share doubts and dreams, and learn from each other.
               </p>
             </div>
           </div>
@@ -115,19 +113,13 @@ const IndexPage = () => {
             <div className="col-8">
               <div className="description-history">
                 <p className="subhead-2">
-                  As the striking autumn colors take over the peaks of the Laurentian Mountains, we will gather in the
-                  slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks.
+                  Finding a community of like-minded women who are as ambitious, positive and thoughtful as you is possible. Unplug from winter and the day-to-day grind, and meet your people in the Bahamas this February.
                 </p>
                 <p className="subhead-2">
-                  The mornings are dedicated to the beauty of the outdoors. Go for a hike, a bike ride, a gondola trip
-                  to the summit, or just take in the view for inspiration. The afternoons are dedicated to what fuels
-                  your creative force at work. Work on a novel, dream the big picture of your company, read two books,
-                  put on a sheet mask and nap, sew that jumpsuit, whatever you need to do to tap into your inner wisdom
-                  and flourish.
+                  The mornings are dedicated to the beauty of the outdoors. Walk on the beach, plunge in the pool, or just take in the view for inspiration. The afternoons are dedicated to what fuels your creative force at work. Work on a novel, dream the big picture of your company, read two books, put on a sheet mask and nap, paint, whatever you need to do to tap into your inner wisdom and flourish.
                 </p>
                 <p className="subhead-2">
-                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women
-                  leaders in tech and embrace of your own truth.
+                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth. Join us in February.
                 </p>
               </div>
 
@@ -173,7 +165,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Group outdoor activity
+                        Group activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -200,7 +192,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Group outdoor activity
+                        Group activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -227,7 +219,7 @@ const IndexPage = () => {
                         10:00 AM
                       </span>
                       <div className="agenda-item-title">
-                        Group outdoor activity
+                        Group activity
                       </div>
                     </div>
                     <div className="agenda-item-entry">
@@ -262,13 +254,57 @@ const IndexPage = () => {
                 </div>
               </div>
 
-              <img src={imgAgendaShape1} className="agenda-shape-1" />
               <img src={imgAgendaShape2} className="agenda-shape-2" />
             </div>
           </div>
         </div>
       </section>
 
+
+
+      <section className="house">
+
+        <div className="container house-images-container">
+          <div className="row">
+            <div className="col-12">
+              <img src={imgHouseShape} className="house-shape" />
+              <img src={imgHouseSM} className="house-image-s" />
+              <img src={imgHouse} className="house-image-l" />
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+
+          <div className="row">
+            <div className="col-1" />
+            <div className="col-10">
+              <h3 className="title-1">The House on Eleuthera, the Bahamas</h3>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-2" />
+            <div className="col-8">
+              <p className="subhead-2">
+                A short flight away from Nassau, the 100-mile-long island of Eleuthera has one highway and many pink sand beaches. Our homebase for the retreat is a cozy 6-bedroom house with a lush garden and pool, just minutes to the beach. Nap under poinciana trees in the garden, read in the swing chairs, and connect with other women leaders in tech on the veranda overlooking the historical Governor’s Harbour and the sea.
+              </p>
+
+              <section className="checkout-button">
+                <div className="checkout-button-faq">
+                  Got more questions? Check out our{' '}
+                  <Link to="/faq" className="underline">
+                    FAQ
+                  </Link>
+                  .
+                </div>
+              </section>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
 
       <section className="testimonial">
         <div className="container">
