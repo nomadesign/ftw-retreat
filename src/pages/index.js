@@ -8,7 +8,7 @@ import Footer from 'modules/Footer';
 import imgHero01 from 'images/hero-01.jpg';
 import imgHero02 from 'images/hero-02.jpg';
 import imgHouse from 'images/house.png';
-import imgHouseSM from 'images/house-sm.jpg';
+import imgHouseSM from 'images/house-sm.png';
 import imgHouseShape from 'images/house-shape.svg';
 import imgHeroShape from 'images/hero-shape.svg';
 import imgAgendaShape2 from 'images/agenda-shape-2.svg';
