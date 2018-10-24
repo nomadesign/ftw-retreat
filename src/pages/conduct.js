@@ -126,7 +126,7 @@ const FaqPage = () => (
             </p>
 
             <h3 className="title-3">Thanks</h3>
-            <p className="body-2">
+            <p className="body-2 no-margin">
               This Code of Conduct was based on resources provided by{' '}
               <a href="https://2018.xoxofest.com/conduct">XOXO Fest</a>,{' '}
               <a href="https://2018.jsconfau.com/code-of-conduct">JSConf AU</a> and{' '}

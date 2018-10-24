@@ -58,12 +58,17 @@ strong {
 }
 
 .headline {
-  font-size: 56px;
+  font-size: 44px;
   color: $color-title;
   letter-spacing: 0;
-  line-height: 64px;
+  line-height: 52px;
 
   @media only screen and (min-width: $breakpoint-small) {
+    font-size: 52px;
+    line-height: 58px;
+  }
+
+  @media only screen and (min-width: $breakpoint-med) {
     font-size: 66px;
     line-height: 86px;
   }

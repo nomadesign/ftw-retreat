@@ -77,15 +77,6 @@ const IndexPage = () => {
                 </p>
               </div>
 
-              <div className="col-4">
-                <h3 className="title-3">
-                  All-inclusive
-                  <img src={UnderlineDescription2} className="description-underline-2" />
-                </h3>
-                <p className="subhead-2">
-                  Nourishing meals daily, lodging and transportation to/from Nassau are included
-                </p>
-              </div>
 
               <div className="col-4">
                 <h3 className="title-3">
@@ -96,6 +87,17 @@ const IndexPage = () => {
                   The afternoons are dedicated to creative endeavors and quiet reflections
                 </p>
               </div>
+
+              <div className="col-4">
+                <h3 className="title-3">
+                  All-inclusive
+                  <img src={UnderlineDescription2} className="description-underline-2" />
+                </h3>
+                <p className="subhead-2">
+                  Nourishing meals daily, lodging and transportation between Nassau and Eleuthera airport are included.
+                </p>
+              </div>
+
             </div>
           </div>
 
@@ -303,7 +305,15 @@ const IndexPage = () => {
           </div>
 
 
+          <div className="row">
+            <div className="col-12 center">
+              <hr />
+            </div>
+          </div>
+
         </div>
+
+
       </section>
 
       <section className="testimonial">
@@ -314,9 +324,9 @@ const IndexPage = () => {
             </div>
           </div>
 
-          <div className="row testimonial-margin">
+          <div className="row">
             <div className="col-6">
-              <div className="testimonial-left">
+              <div className="testimonial-left testimonial-margin">
                 <p className="body-2 ">
                   “It's not a retreat, it's an experience. Kuan took care of every little detail. Between the incredible house, the delicious food, and the amazing women, this is the perfect way to unplug and find your people.”
                 </p>
@@ -331,7 +341,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="col-6">
-              <div className="testimonial-right">
+              <div className="testimonial-right testimonial-margin">
                 <p className="body-2">
                   “FTW Retreat was the perfect time and space to be creative (I shipped the first draft of my book!), to revel in some stillness in nature, and to learn from other boss women.”
                 </p>
@@ -349,7 +359,7 @@ const IndexPage = () => {
 
           <div className="row">
             <div className="col-6">
-              <div className="testimonial-left">
+              <div className="testimonial-left testimonial-margin">
                 <p className="body-2 ">
                   “Thanks for crafting a perfect weekend of relaxation, great food and meaningful conversation - I left feeling incredibly recharged and inspired.”
                 </p>
@@ -364,7 +374,7 @@ const IndexPage = () => {
               </div>
             </div>
             <div className="col-6">
-              <div className="testimonial-right testimonial-fix">
+              <div className="testimonial-right testimonial-margin testimonial-fix">
                 <p className="body-2">
                   “One of the most fulfilling weekends I've had in a long time -- both professionally and personally.”
                 </p>

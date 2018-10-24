@@ -66,7 +66,7 @@ const PrivacyPage = () => (
               practices or for other operational, legal or regulatory reasons.
             </p>
             <p className="subhead-1">Contact us</p>
-            <p className="body-2">
+            <p className="body-2 no-margin">
               For more information about our privacy practices, if you have questions, or if you would like to make a
               complaint, please contact us by e-mail at{' '}
               <a href="mailto:contact@forthewomenretreat.com">contact@forthewomenretreat.com</a>.

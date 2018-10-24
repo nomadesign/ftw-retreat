@@ -37,11 +37,11 @@ const FaqPage = () => (
               FTW Retreat was designed to meet these two goals:
               <ul className="body-list">
                 <li>
-                  <strong>Intentionally small to foster connections:</strong> Share homemade meals, motherhood stories,
+                  Intentionally small to foster connections: Share homemade meals, motherhood stories,
                   skincare tips, career aspirations, and adventure tales with a total of 10 women.
                 </li>
                 <li>
-                  <strong>Retreat at your own pace:</strong> Three full pliable days to honor the reader, artist and
+                  Retreat at your own pace: Three full pliable days to honor the reader, artist and
                   outdoorswoman in all of us. Sleep in or wake up early for a sunrise hike. The retreat is yours to
                   play.
                 </li>
@@ -89,7 +89,7 @@ const FaqPage = () => (
             </p>
 
             <h3 className="subhead-1">Wait, I have more questions!</h3>
-            <p className="body-2">
+            <p className="body-2 no-margin">
               We got you. Email us{' '}
               <Link to="mailto:contact@forthewomenretreat.com" className="underline">
                 contact@forthewomenretreat.com
