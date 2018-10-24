@@ -1,6 +1,5 @@
 .footer{
   padding: $baseline * 14 0 0 0;
-  background-image: linear-gradient(-180deg, $background-color 0%, $background-color-darker 100%);
 
   a.footer-privacy,
   span.footer-privacy{
@@ -17,7 +16,7 @@
 
 .footer-instagram {
   @extend .subhead-2;
-  margin-bottom: $baseline * 2;
+  margin-bottom: $baseline * 3;
   a{
     text-decoration: underline;
     &:hover {

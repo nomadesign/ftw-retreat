@@ -1,5 +1,5 @@
 .testimonial{
-  margin-bottom: $baseline * 14;
+  margin-bottom: $baseline * 6;
 
   .title-1{
     margin-bottom: $baseline * 6;
@@ -28,7 +28,7 @@
   }
 
   &.testimonial--retreat {
-    padding: $baseline * 3 0 $baseline * 6;
+    padding: 5% 0 7%;
     margin-bottom: 0;
   }
 }

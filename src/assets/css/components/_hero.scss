@@ -70,4 +70,9 @@
   position: absolute;
   bottom: $baseline * 2 * -1;
   left:  -2px;
+  display: none;
+
+  @media only screen and (min-width: $breakpoint-small) {
+    display: block;
+  }
 }

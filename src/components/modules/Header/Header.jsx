@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
         <div className="col-12">
           <header className="header">
             <Link to="/">
-              <img src={logo} alt={siteTitle} />{' '}
+              <img src={logo} alt={siteTitle} className="header-logo" />{' '}
             </Link>
             <nav className="header-nav">
               <span className="header-nav-link">
