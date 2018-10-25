@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Footer from 'components/Footer';
+import Shell from 'layouts/Shell';
+import Footer from 'modules/Footer';
 
 const NotFoundPage = () => (
-  <div>
+  <Shell>
     <section className="privacy">
       <div className="container">
         <div className="row">
@@ -17,7 +18,7 @@ const NotFoundPage = () => (
       </div>
     </section>
     <Footer />
-  </div>
+  </Shell>
 );
 
 export default NotFoundPage;

@@ -3,10 +3,12 @@
   padding-bottom:  $baseline * 18;
 
   .headline{
-    margin-bottom: $baseline * 11;
+    margin-bottom: $baseline * 4;
   }
   .title-2{
     position: relative;
+    color: $brand-color-1;
+    margin-bottom: $baseline * 12;
   }
   .subhead-2 {
     margin-bottom: $baseline;
@@ -64,8 +66,13 @@
   }
 }
 
-.hero-underline{
+.hero-underline {
   position: absolute;
-  bottom: $baseline * 3 * -1;
+  bottom: $baseline * 2 * -1;
   left:  -2px;
+  display: none;
+
+  @media only screen and (min-width: $breakpoint-small) {
+    display: block;
+  }
 }

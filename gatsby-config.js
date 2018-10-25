@@ -1,7 +1,11 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   siteMetadata: {
     title: 'For the Women Retreat',
-    description: 'A 5-day creative retreat for women leaders in tech. Join the first edition: October 4-8, 2018 in Québec, Canada',
+    description: 'A 5-day intimate retreat for women leaders in tech. Second edition: Feb 7-11 in Eleuthera, the Bahamas.',
     keywords: 'women, retreat, creative, inclusive'
   },
   plugins: [
@@ -10,7 +14,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-119597846-1',
+        trackingId: process.env.GA_TRACKING_ID,
         head: false,
         anonymize: true,
         respectDNT: true

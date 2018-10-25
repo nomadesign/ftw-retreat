@@ -1,23 +1,21 @@
 import React from 'react';
-import Footer from 'components/Footer';
+import Shell from 'layouts/Shell';
+import Footer from 'modules/Footer';
 import Link from 'gatsby-link';
 
 const PrivacyPage = () => (
-  <div>
+  <Shell>
     <section className="privacy">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <h1 className="title-1">Privacy Policy</h1>
-
-
           </div>
         </div>
 
         <div className="row">
           <div className="col-1" />
           <div className="col-10">
-
             <p className="body-2">
               This Privacy Policy describes how your personal information is collected, used, and shared when you visit{' '}
               <Link to="/">forthewomenretreat.com</Link> (the “Site”).
@@ -68,7 +66,7 @@ const PrivacyPage = () => (
               practices or for other operational, legal or regulatory reasons.
             </p>
             <p className="subhead-1">Contact us</p>
-            <p className="body-2">
+            <p className="body-2 no-margin">
               For more information about our privacy practices, if you have questions, or if you would like to make a
               complaint, please contact us by e-mail at{' '}
               <a href="mailto:contact@forthewomenretreat.com">contact@forthewomenretreat.com</a>.
@@ -77,8 +75,8 @@ const PrivacyPage = () => (
         </div>
       </div>
     </section>
-    <Footer />
-  </div>
+    <Footer showRegistration="true" />
+  </Shell>
 );
 
 export default PrivacyPage;

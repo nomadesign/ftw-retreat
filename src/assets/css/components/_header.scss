@@ -1,11 +1,11 @@
 .header {
   padding:$baseline * 4 0;
 
-  img{
+  .header-logo{
     margin-bottom: $baseline * 2;
   }
 
-  @media only screen and (min-width: $breakpoint-small) {
+  @media only screen and (min-width: $breakpoint-med) {
     padding: 0;
     margin-bottom: $baseline * 8;
     height: $baseline * 12;
@@ -13,21 +13,53 @@
     justify-content: space-between;
     align-items: center;
 
-    img{
+    .header-logo{
       margin: 0;
     }
   }
 }
 
-.header-nav{
+.header-nav,
+.header-nav .header-nav-link{
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.header-nav-faq{
+
+.header-nav-link{
   font-size: 19px;
+  position: relative;
   line-height: 52px;
   margin-right: $baseline * 4;
   display: inline-block;
+  cursor: pointer;
+
+  &:hover > .header-sub-menu {
+    display: block;
+  }
+}
+
+.header-sub-menu{
+  position: absolute;
+  display: none;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.12);
+  padding: 0 $baseline * 2;
+  height: 56px;
+  width: 200px;
+  text-align: right;
+  top: 44px;
+  left: 0;
+
+  a{
+    font-size: 19px;
+    line-height: 56px;
+    position: relative;
+  }
+
+  @media only screen and (min-width: $breakpoint-med) {
+    right: 0;
+    left: auto;
+  }
 }

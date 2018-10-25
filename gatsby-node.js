@@ -1,16 +1,16 @@
-const generateBabelConfig = require('gatsby/dist/utils/babel-config');
 const path = require('path');
 
-exports.modifyWebpackConfig = function({ config, env }) {
-  config.merge({
+exports.onCreateWebpackConfig = function({ stage, rules, loaders, plugins, actions }) {
+  actions.setWebpackConfig({
     resolve: {
-      root: path.resolve(__dirname, './src'),
       alias: {
-        components: 'components',
-        fonts: 'assets/fonts',
-        images: 'assets/images'
+        components: path.resolve(__dirname, 'src/components'),
+        css: path.resolve(__dirname, 'src/assets/css'),
+        fonts: path.resolve(__dirname, 'src/assets/fonts'),
+        images: path.resolve(__dirname, 'src/assets/images'),
+        layouts: path.resolve(__dirname, 'src/components/layouts'),
+        modules: path.resolve(__dirname, 'src/components/modules')
       }
     }
   });
-  return config;
 };

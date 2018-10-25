@@ -1,13 +1,16 @@
 .house{
-  margin-bottom: $baseline * 14;
   padding: $baseline * 14 0;
-  background-color: $background-color-darker;
 
   .title-1{
     margin-bottom: $baseline * 4;
   }
   .subhead-2{
-    margin-bottom: $baseline * 9;
+    margin-bottom: $baseline * 4;
+  }
+
+  hr {
+    margin-top: $baseline * 14;
+    margin-bottom: 0;
   }
 }
 

@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="187px" height="10px" viewBox="0 0 187 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>Path 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="↳-Registration-(v2.2.1)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Landing-Page" transform="translate(-237.000000, -1296.000000)" stroke="#E5AE4F" stroke-width="3">
-            <g id="More-Info" transform="translate(239.000000, 1269.000000)">
-                <path d="M0.12890625,35.3515625 C73.483394,28 121.942365,28 183.048904,30.4257812" id="Path-2"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="10" viewBox="0 0 187 10" width="187" xmlns="http://www.w3.org/2000/svg"><path d="m.12890625 35.3515625c73.35448775-7.3515625 121.81345875-7.3515625 182.91999775-4.9257813" fill="none" stroke="#fc6e69" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" transform="translate(2 -27)"/></svg>
