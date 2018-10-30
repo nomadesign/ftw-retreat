@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Shell from 'layouts/Shell';
-import CheckoutButton from 'modules/CheckoutButton';
 import SubscribeModal from 'modules/SubscribeModal';
 import SubscribeForm from 'modules/SubscribeForm';
 import Footer from 'modules/Footer';
@@ -43,7 +42,6 @@ const IndexPage = () => {
                 Feb 7-11, 2019 in Eleuthera, the Bahamas
                 <img src={UnderlineHero} className="hero-underline" />
               </h2>
-              <SubscribeForm />
             </div>
           </div>
         </div>
@@ -124,6 +122,19 @@ const IndexPage = () => {
                   You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth. Join us in February.
                 </p>
               </div>
+
+              <section className="checkout-button">
+                <button className="button" type="button">
+                  Reserve Your Spot
+                </button>
+                  <div className="checkout-button-faq">
+                    Got more questions? Check out our{' '}
+                    <Link to="/faq" className="underline">
+                      FAQ
+                    </Link>
+                    .
+                  </div>
+              </section>
 
             </div>
           </div>
@@ -293,14 +304,18 @@ const IndexPage = () => {
               </p>
 
               <section className="checkout-button">
-                <div className="checkout-button-faq">
-                  Got more questions? Check out our{' '}
-                  <Link to="/faq" className="underline">
-                    FAQ
-                  </Link>
-                  .
-                </div>
+                <button className="button" type="button">
+                  Reserve Your Spot
+                </button>
+                  <div className="checkout-button-faq">
+                    Got more questions? Check out our{' '}
+                    <Link to="/faq" className="underline">
+                      FAQ
+                    </Link>
+                    .
+                  </div>
               </section>
+              
             </div>
           </div>
 
