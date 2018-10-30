@@ -315,7 +315,7 @@ const IndexPage = () => {
                     .
                   </div>
               </section>
-              
+
             </div>
           </div>
 
@@ -437,6 +437,15 @@ const IndexPage = () => {
       <Footer showRegistration="true" />
 
       <SubscribeModal />
+
+      <div className="modal">
+        <div className="modal-background"></div>
+        <div className="modal-window">
+          <button>close</button><br />
+          All the shopify code should be here<br />
+          And this should be a modal
+        </div>
+      </div>
     </Shell>
   );
 };
