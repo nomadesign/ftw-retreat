@@ -18,6 +18,10 @@ export default class HTML extends React.Component {
             src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
             data-dojo-config="usePlainJson: true, isDebug: false"
           />
+          <script
+            type="text/javascript"
+            src="https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js"
+          />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
