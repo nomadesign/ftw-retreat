@@ -124,9 +124,9 @@ const IndexPage = () => {
               </div>
 
               <section className="checkout-button">
-                <button className="button" type="button">
+                <Link to="/book" className="button">
                   Reserve Your Spot
-                </button>
+                </Link>
                   <div className="checkout-button-faq">
                     Got more questions? Check out our{' '}
                     <Link to="/faq" className="underline">
@@ -304,9 +304,9 @@ const IndexPage = () => {
               </p>
 
               <section className="checkout-button">
-                <button className="button" type="button">
+                <Link to="/book" className="button">
                   Reserve Your Spot
-                </button>
+                </Link>
                   <div className="checkout-button-faq">
                     Got more questions? Check out our{' '}
                     <Link to="/faq" className="underline">
@@ -438,14 +438,6 @@ const IndexPage = () => {
 
       <SubscribeModal />
 
-      <div className="modal">
-        <div className="modal-background"></div>
-        <div className="modal-window">
-          <button>close</button><br />
-          All the shopify code should be here<br />
-          And this should be a modal
-        </div>
-      </div>
     </Shell>
   );
 };

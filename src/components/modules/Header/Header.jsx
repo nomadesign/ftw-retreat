@@ -5,11 +5,11 @@ import iconChevronDown from 'images/icon-chevron-down.svg';
 
 const Header = ({ siteTitle }) => (
   <section id="header">
-    <div className="checkout-banner">
+    <Link to="/book" className="checkout-banner">
       <div className="subhead-1">
         Registration for Feb 7-11, 2019 FTWRetreat in Eleuthera, the Bahamas is open. <u>Click to reserve your spot</u>.
       </div>
-    </div>
+    </Link>
     <div className="container">
       <div className="row">
         <div className="col-12">

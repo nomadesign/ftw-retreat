@@ -40,14 +40,15 @@ class Book extends React.Component {
             },
             button: {
               'font-family': 'Open Sans, sans-serif',
-              ':hover': { 'background-color': '#6ca44e' },
+              'background-color': '#5562EB',
+              ':hover': { 'background-color': '#3746e7' },
               'font-weight': 'normal',
-              ':focus': { 'background-color': '#6ca44e' }
+              ':focus': { 'background-color': '#3746e7' }
             },
             variantTitle: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal', 'font-size': '26px' },
+            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': '600', 'font-size': '19px' },
             description: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '18px', 'font-weight': 'normal' },
+            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '17px', 'font-weight': 'normal' },
             compareAt: { 'font-size': '15px', 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' }
           },
           googleFonts: ['Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans']
@@ -141,14 +142,15 @@ class Book extends React.Component {
             },
             button: {
               'font-family': 'Open Sans, sans-serif',
-              ':hover': { 'background-color': '#6ca44e' },
+              'background-color': '#5562EB',
+              ':hover': { 'background-color': '#3746e7' },
               'font-weight': 'normal',
-              ':focus': { 'background-color': '#6ca44e' }
+              ':focus': { 'background-color': '#3746e7' }
             },
             variantTitle: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal', 'font-size': '26px' },
+            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': '600', 'font-size': '19px' },
             description: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '18px', 'font-weight': 'normal' },
+            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '17px', 'font-weight': 'normal' },
             compareAt: { 'font-size': '15px', 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' }
           },
           googleFonts: ['Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans']
@@ -242,14 +244,15 @@ class Book extends React.Component {
             },
             button: {
               'font-family': 'Open Sans, sans-serif',
-              ':hover': { 'background-color': '#6ca44e' },
+              'background-color': '#5562EB',
+              ':hover': { 'background-color': '#3746e7' },
               'font-weight': 'normal',
-              ':focus': { 'background-color': '#6ca44e' }
+              ':focus': { 'background-color': '#3746e7' }
             },
             variantTitle: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal', 'font-size': '26px' },
+            title: { 'font-family': 'Open Sans, sans-serif', 'font-weight': '600', 'font-size': '19px' },
             description: { 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' },
-            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '18px', 'font-weight': 'normal' },
+            price: { 'font-family': 'Open Sans, sans-serif', 'font-size': '17px', 'font-weight': 'normal' },
             compareAt: { 'font-size': '15px', 'font-family': 'Open Sans, sans-serif', 'font-weight': 'normal' }
           },
           googleFonts: ['Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans', 'Open Sans']
@@ -316,7 +319,10 @@ class Book extends React.Component {
         productSet: { styles: { products: { '@media (min-width: 601px)': { 'margin-left': '-20px' } } } }
       }
     });
+
   }
+
+
 
   render() {
     return (
@@ -325,9 +331,15 @@ class Book extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <div id="product-component-1541024569699" />
-                <div id="product-component-1541025397999" />
-                <div id="product-component-1541025436816" />
+                <h1 className="title-1">Reserve your spot</h1>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-1" />
+              <div className="col-11">
+                <div id="product-component-1541025397999" className="book-item" />
+                <div id="product-component-1541024569699" className="book-item" />
+                <div id="product-component-1541025436816" className="book-item" />
               </div>
             </div>
           </div>
