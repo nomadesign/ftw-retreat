@@ -32,7 +32,7 @@ class Book extends React.Component {
             buttonWithQuantity: false,
             quantity: false
           },
-          text: { button: 'Register' },
+          text: { button: 'Register', outOfStock: 'Sold Out' },
           styles: {
             product: {
               'text-align': 'left',
@@ -134,7 +134,7 @@ class Book extends React.Component {
             buttonWithQuantity: false,
             quantity: false
           },
-          text: { button: 'Register' },
+          text: { button: 'Register', outOfStock: 'Sold Out' },
           styles: {
             product: {
               'text-align': 'left',
@@ -236,7 +236,7 @@ class Book extends React.Component {
             buttonWithQuantity: false,
             quantity: false
           },
-          text: { button: 'Register' },
+          text: { button: 'Register', outOfStock: 'Sold Out' },
           styles: {
             product: {
               'text-align': 'left',
