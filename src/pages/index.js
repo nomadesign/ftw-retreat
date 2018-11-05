@@ -383,7 +383,7 @@ const IndexPage = () => {
                   <img src={imgTestimonialAmy} width="48" className="media-figure" />
                   <div className="media-body">
                     <h4 className="caption-1">Amy Pan</h4>
-                    <span className="caption-2">Product management consultant</span>
+                    <span className="caption-2">Product Advisor</span>
                   </div>
                 </div>
               </div>
