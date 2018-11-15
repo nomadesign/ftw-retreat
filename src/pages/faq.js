@@ -53,6 +53,12 @@ const FaqPage = () => (
               All-inclusive pricing ranges between $1,750 to $2,750 depending on your room choices. Just take care of your flight to Nassau, and we've got you covered for the rest. <Link to="/book" className="underline">Click here to reserve your spot.</Link>
             </p>
 
+
+            <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
+            <p className="body-2">
+              Send <Link to="https://docs.google.com/document/d/1sjeZxoO8sts4Q5_sM2OwdlASDFd5plbw-IHQ4eKbX6U/edit" className="underline">this</Link> to your boss, inspired by <Link to="https://www.getmoney-getpaid.com/" className="underline">Ladies Get Paid conference</Link>.
+            </p>
+  
             <h3 className="subhead-1">What time should my flight arrive by and leave at?</h3>
             <p className="body-2">
               Arrive at Lynden Pindling International Airport (NAS) by 2pm on Thursday, February 7, and book your return flight no earlier than 3pm on Monday, February 11.
@@ -67,11 +73,6 @@ const FaqPage = () => (
             <p className="body-2">
               Due to the intimate nature of the retreat, your payment will be non-refundable, but transferable towards a
               future retreat.
-            </p>
-
-            <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
-            <p className="body-2">
-              Send <Link to="https://docs.google.com/document/d/1sjeZxoO8sts4Q5_sM2OwdlASDFd5plbw-IHQ4eKbX6U/edit" className="underline">this</Link> to your boss, inspired by <Link to="https://www.getmoney-getpaid.com/" className="underline">Ladies Get Paid conference</Link>.
             </p>
 
             <h3 className="subhead-1">I’m not creative. Can I come? </h3>
