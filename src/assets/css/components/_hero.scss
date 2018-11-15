@@ -3,13 +3,17 @@
   padding-bottom:  $baseline * 18;
 
   .headline{
-    margin-bottom: $baseline * 4;
+    margin-bottom: $baseline * 3;
   }
   .title-2{
     position: relative;
     color: $brand-color-2;
     margin-bottom: $baseline * 12;
   }
+
+  .checkout-button{
+     margin-bottom: $baseline * 12;
+   }
   .subhead-2 {
     margin-bottom: $baseline;
   }

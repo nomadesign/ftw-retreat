@@ -48,25 +48,31 @@ const FaqPage = () => (
               </ul>
             </p>
 
-            <h3 className="subhead-1">How do I register for the Winter retreat?</h3>
+            <h3 className="subhead-1">How much is the retreat and how do I register for it?</h3>
             <p className="body-2">
-              Registration coming very soon. Be sure to sign up for our  <a href="#Footer">newsletter</a> to be in the know.
+              All-inclusive pricing ranges between $1,750 to $2,750 depending on your room choices. Just take care of your flight to Nassau, and we've got you covered for the rest. <Link to="/book" className="underline">Click here to reserve your spot.</Link>
+            </p>
+
+
+            <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
+            <p className="body-2">
+              Send <a href="https://docs.google.com/document/d/1sjeZxoO8sts4Q5_sM2OwdlASDFd5plbw-IHQ4eKbX6U/edit" className="underline" target="_blank">this</a> to your boss, inspired by <a href="https://www.getmoney-getpaid.com/" className="underline" target="_blank">Ladies Get Paid conference</a>.
+            </p>
+  
+            <h3 className="subhead-1">What time should my flight arrive by and leave at?</h3>
+            <p className="body-2">
+              Arrive at Lynden Pindling International Airport (NAS) by 2pm on Thursday, February 7, and book your return flight no earlier than 3pm on Monday, February 11.
+            </p>
+
+            <h3 className="subhead-1">How do we get to the house?</h3>
+            <p className="body-2">
+              We will meet at the Lynden Pindling International Airport (NAS) on Thursday at 2pm, and take a short flight to Eleuthera together. Upon arriving in Eleuthera, the house is just a 10-minute drive away.
             </p>
 
             <h3 className="subhead-1">What’s the refund policy?</h3>
             <p className="body-2">
               Due to the intimate nature of the retreat, your payment will be non-refundable, but transferable towards a
               future retreat.
-            </p>
-
-            <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
-            <p className="body-2">
-              Here is the list of what your company will get out of sending you to an FTW Retreat.
-              <ul className="body-list">
-                <li>You are a happier employee from being re-energized & inspired in nature and in the group.</li>
-                <li>Your team will be more productive from discussing issues that your team faces with other experienced women leaders in tech.</li>
-                <li>Your company will be on the radar for the group of women who might be looking for their next role.</li>
-              </ul>
             </p>
 
             <h3 className="subhead-1">I’m not creative. Can I come? </h3>
@@ -91,9 +97,9 @@ const FaqPage = () => (
             <h3 className="subhead-1">Wait, I have more questions!</h3>
             <p className="body-2 no-margin">
               We got you. Email us{' '}
-              <Link to="mailto:contact@forthewomenretreat.com" className="underline">
+              <a href="mailto:contact@forthewomenretreat.com" className="underline">
                 contact@forthewomenretreat.com
-              </Link>
+              </a>
               , and we will get back to you.{' '}
             </p>
           </div>
