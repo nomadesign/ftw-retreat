@@ -42,6 +42,19 @@ const IndexPage = () => {
                 Feb 7-11, 2019 in Eleuthera, the Bahamas
                 <img src={UnderlineHero} className="hero-underline" />
               </h2>
+
+              <section className="checkout-button">
+                <Link to="/book" className="button">
+                  Reserve Your Spot
+                </Link>
+                  <div className="checkout-button-faq">
+                    Got more questions? Check out our{' '}
+                    <Link to="/faq" className="underline">
+                      FAQ
+                    </Link>
+                    .
+                  </div>
+              </section>
             </div>
           </div>
         </div>
