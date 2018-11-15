@@ -56,7 +56,7 @@ const FaqPage = () => (
 
             <h3 className="subhead-1">I'd love to have my company pay for my trip. How can I do it?</h3>
             <p className="body-2">
-              Send <Link to="https://docs.google.com/document/d/1sjeZxoO8sts4Q5_sM2OwdlASDFd5plbw-IHQ4eKbX6U/edit" className="underline">this</Link> to your boss, inspired by <Link to="https://www.getmoney-getpaid.com/" className="underline">Ladies Get Paid conference</Link>.
+              Send <a href="https://docs.google.com/document/d/1sjeZxoO8sts4Q5_sM2OwdlASDFd5plbw-IHQ4eKbX6U/edit" className="underline" target="_blank">this</a> to your boss, inspired by <a href="https://www.getmoney-getpaid.com/" className="underline" target="_blank">Ladies Get Paid conference</a>.
             </p>
   
             <h3 className="subhead-1">What time should my flight arrive by and leave at?</h3>
@@ -97,9 +97,9 @@ const FaqPage = () => (
             <h3 className="subhead-1">Wait, I have more questions!</h3>
             <p className="body-2 no-margin">
               We got you. Email us{' '}
-              <Link to="mailto:contact@forthewomenretreat.com" className="underline">
+              <a href="mailto:contact@forthewomenretreat.com" className="underline">
                 contact@forthewomenretreat.com
-              </Link>
+              </a>
               , and we will get back to you.{' '}
             </p>
           </div>
