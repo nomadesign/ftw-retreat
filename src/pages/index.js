@@ -39,36 +39,18 @@ const IndexPage = () => {
             <div className="col-11">
               <h1 className="headline">A 5-day intimate retreat for women leaders in tech</h1>
               <h2 className="title-2">
-                Feb 7-11, 2019 in Eleuthera, the Bahamas
+                News: FTW Retreat is now part of Elpha
                 <img src={UnderlineHero} className="hero-underline" />
               </h2>
 
               <section className="checkout-button">
-                <Link to="/book" className="button">
-                  Reserve Your Spot
-                </Link>
+                <a href="https://elpha.com" target="_blank" className="button">
+                  Join Elpha
+                </a>
                   <div className="checkout-button-faq">
-                    Got more questions? Check out our{' '}
-                    <Link to="/faq" className="underline">
-                      FAQ
-                    </Link>
-                    .
+                    A Private Network for Women in Tech
                   </div>
               </section>
-            </div>
-          </div>
-        </div>
-
-        <div className="container hero-images-container">
-          <div className="row">
-            <div className="col-5">
-              <img src={imgHero01} className="hidden-sm" />
-            </div>
-            <div className="col-7">
-              <div className="hero-shape-wrapper">
-                <img src={imgHeroShape} className="hero-shape" />
-                <img src={imgHero02} />
-              </div>
             </div>
           </div>
         </div>
@@ -76,47 +58,11 @@ const IndexPage = () => {
 
       <section className="description">
         <div className="container">
-          <div className="description-glance">
-            <div className="row">
-              <div className="col-4">
-                <h3 className="title-3">
-                  Intentionally small
-                  <img src={UnderlineDescription1} className="description-underline-1" />
-                </h3>
-                <p className="subhead-2">
-                  Have a really long, deep conversations with a diverse group of women
-                </p>
-              </div>
-
-
-              <div className="col-4">
-                <h3 className="title-3">
-                  Individual work time
-                  <img src={UnderlineDescription3} className="description-underline-3" />
-                </h3>
-                <p className="subhead-2">
-                  The afternoons are dedicated to creative endeavors and quiet reflections
-                </p>
-              </div>
-
-              <div className="col-4">
-                <h3 className="title-3">
-                  All-inclusive
-                  <img src={UnderlineDescription2} className="description-underline-2" />
-                </h3>
-                <p className="subhead-2">
-                  Nourishing meals daily, lodging and transportation between Nassau and Eleuthera airport are included.
-                </p>
-              </div>
-
-            </div>
-          </div>
-
           <div className="row">
             <div className="col-1" />
             <div className="col-9">
               <p className="title-1">
-                <strong>Being a leader in tech and a woman at the same time is a lonely affair.</strong> Join For the Women (FTW) Retreat, a 5-day intimate retreat for women leaders in tech to connect, share doubts and dreams, and learn from each other.
+                <strong>FTW Retreat is joining forces with Leap to become an independent company with a new name: Elpha!</strong> It’s a private community for women to excel in tech.
               </p>
             </div>
           </div>
@@ -126,222 +72,37 @@ const IndexPage = () => {
             <div className="col-8">
               <div className="description-history">
                 <p className="subhead-2">
-                  Finding a community of like-minded women who are as ambitious, positive and thoughtful as you is possible. Unplug from winter and the day-to-day grind, and meet your people in the Bahamas this February.
+                  Seven months ago, I started FTW Retreat to create an offline experience where women leaders in tech could connect, share experiences, and pool resources to help each other grow. It was something I desired when I was working in tech, but never found, so I decided to build it. Last October, a group of us ladies met in Québec for the first retreat and the experience proved the importance of seeking and building such a community of connected minds.
                 </p>
                 <p className="subhead-2">
-                  The mornings are dedicated to the beauty of the outdoors. Walk on the beach, plunge in the pool, or just take in the view for inspiration. The afternoons are dedicated to what fuels your creative force at work. Work on a novel, dream the big picture of your company, read two books, put on a sheet mask and nap, paint, whatever you need to do to tap into your inner wisdom and flourish.
+                  One of the things I love the most about building For the Women Retreat has been that I got to discover many other like-minded communities aiming for this very mission, such as Leap by Cadran and Hustle Crew by Abadesi.
                 </p>
                 <p className="subhead-2">
-                  You will be amazed by what can be revealed when you dedicate 5 days to connect with other badass women leaders in tech and embrace of your own truth. Join us in February.
+                  The more the three of us talked, the more obvious it was that we should work together, using our complimentary skills to make our shared vision real — building the most powerful network for women in tech. Software is more scalable, at least at the beginning, than in-person experiences, so we decided to lean into our strengths and focus on software first with the hope of introducing offline experiences such as a retreat later.
+                </p>
+                <p className="subhead-2">
+                  In the past few months, we’ve been tinkering at what this network for women in tech could look like, using Leap as the foundation. If you identify with women, and work in tech (or hope to in the future), you can join Elpha today. We want Elpha to be the go-to resource for women in tech to access industry experts, learn from peers, and find answers to their most pressing personal and professional questions and, of course, make lasting friendships, just like what you will get out of a FTW Retreat, but online.
+                </p>
+                <p className="subhead-2">
+                  Thank you for supporting FTW Retreat – Elpha has been co-founded as a result of this community, and I’m beyond grateful for the feedback and advice you’ve given.
+                </p>
+                <p className="subhead-2">
+                Cheers,<br />
+                Kuan<br />
+                <br />
+                PS: Bloomberg wrote a nice piece on our launch, and you can read about it <a href="https://www.bloomberg.com/news/articles/2019-02-04/y-combinator-s-women-only-forum-is-becoming-its-own-business?srnd=technology-vp" target="_blank">here</a>.
                 </p>
               </div>
 
               <section className="checkout-button">
-                <Link to="/book" className="button">
-                  Reserve Your Spot
-                </Link>
-                  <div className="checkout-button-faq">
-                    Got more questions? Check out our{' '}
-                    <Link to="/faq" className="underline">
-                      FAQ
-                    </Link>
-                    .
-                  </div>
+                <a href="https://elpha.com" target="_blank" className="button">
+                  Join Elpha
+                </a>
               </section>
 
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="agenda">
-        <div className="container agenda-container">
-          <div className="row">
-            <div className="col-12">
-              <div className="agenda-wrapper">
-                <h1 className="title-1">
-                  Agenda
-                  <img src={UnderlineAgenda} className="agenda-underline" />
-                </h1>
-
-                <div className="agenda-items">
-                  <div className="agenda-item">
-                    <h3 className="body-1">Day 1</h3>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">4-6 PM</span>
-                      <div className="agenda-item-title">Check-In</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">6:30 PM</span>
-                      <div className="agenda-item-title">Dinner</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">8:30 PM</span>
-                      <div className="agenda-item-title">Introductions + opening circle</div>
-                    </div>
-                  </div>
-
-                  <div className="agenda-item">
-                    <h3 className="body-1">Day 2</h3>
-                    <div className="agenda-item-entry">
-                      <div className="agenda-item-title">Breakfast (self-service)</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">
-                        10:00 AM
-                      </span>
-                      <div className="agenda-item-title">
-                        Group activity
-                      </div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">12:30 PM</span>
-                      <div className="agenda-item-title">Lunch</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">2-5 PM</span>
-                      <div className="agenda-item-title">Creative time</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">6:30 PM</span>
-                      <div className="agenda-item-title">Dinner</div>
-                    </div>
-                  </div>
-
-                  <div className="agenda-item">
-                    <h3 className="body-1">Day 3</h3>
-                    <div className="agenda-item-entry">
-                      <div className="agenda-item-title">Breakfast (self-service)</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">
-                        10:00 AM
-                      </span>
-                      <div className="agenda-item-title">
-                        Group activity
-                      </div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">12:30 PM</span>
-                      <div className="agenda-item-title">Lunch</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">2-5 PM</span>
-                      <div className="agenda-item-title">Creative time</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">6:30 PM</span>
-                      <div className="agenda-item-title">Dinner</div>
-                    </div>
-                  </div>
-
-                  <div className="agenda-item">
-                    <h3 className="body-1">Day 4</h3>
-                    <div className="agenda-item-entry">
-                      <div className="agenda-item-title">Breakfast (self-service)</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">
-                        10:00 AM
-                      </span>
-                      <div className="agenda-item-title">
-                        Group activity
-                      </div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">12:30 PM</span>
-                      <div className="agenda-item-title">Lunch</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">2-5 PM</span>
-                      <div className="agenda-item-title">Creative time</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">6:30 PM</span>
-                      <div className="agenda-item-title">Dinner</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">8:30 PM</span>
-                      <div className="agenda-item-title">Closing circle</div>
-                    </div>
-                  </div>
-
-                  <div className="agenda-item">
-                    <h3 className="body-1">Day 5</h3>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">9:00 AM</span>
-                      <div className="agenda-item-title">Breakfast</div>
-                    </div>
-                    <div className="agenda-item-entry">
-                      <span className="agenda-item-time">11:00 AM</span>
-                      <div className="agenda-item-title">Packing out</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <img src={imgAgendaShape2} className="agenda-shape-2" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-
-      <section className="house">
-
-        <div className="container house-images-container">
-          <div className="row">
-            <div className="col-12">
-              <img src={imgHouseShape} className="house-shape" />
-              <img src={imgHouseSM} className="house-image-s" />
-              <img src={imgHouse} className="house-image-l" />
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-
-          <div className="row">
-            <div className="col-1" />
-            <div className="col-10">
-              <h3 className="title-1">The House on Eleuthera, the Bahamas</h3>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-2" />
-            <div className="col-8">
-              <p className="subhead-2">
-                A short flight away from Nassau, the 100-mile-long island of Eleuthera has one highway and many pink sand beaches. Our homebase for the retreat is a cozy 6-bedroom house with a lush garden and pool, just minutes to the beach. Nap under poinciana trees in the garden, read in the swing chairs, and connect with other women leaders in tech on the veranda overlooking the historical Governor’s Harbour and the sea.
-              </p>
-
-              <section className="checkout-button">
-                <Link to="/book" className="button">
-                  Reserve Your Spot
-                </Link>
-                  <div className="checkout-button-faq">
-                    Got more questions? Check out our{' '}
-                    <Link to="/faq" className="underline">
-                      FAQ
-                    </Link>
-                    .
-                  </div>
-              </section>
-
-            </div>
-          </div>
-
-
-          <div className="row">
-            <div className="col-12 center">
-              <hr />
-            </div>
-          </div>
-
-        </div>
-
-
       </section>
 
       <section className="testimonial">
