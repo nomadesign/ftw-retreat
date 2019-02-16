@@ -48,7 +48,7 @@ const IndexPage = () => {
                   Join Elpha
                 </a>
                   <div className="checkout-button-faq">
-                    A Private Network for Women in Tech
+                    Read more about our story below
                   </div>
               </section>
             </div>

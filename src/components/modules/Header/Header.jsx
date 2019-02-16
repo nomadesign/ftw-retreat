@@ -20,6 +20,9 @@ const Header = ({ siteTitle }) => (
                   <Link to="/retreat/fall-2018">
                     Fall 2018 in Québec
                   </Link>
+                  <Link to="/retreat/winter-2019">
+                    Winter 2019 in Eleuthera
+                  </Link>
                 </div>
               </span>
             </nav>
