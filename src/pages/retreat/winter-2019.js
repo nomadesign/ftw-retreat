@@ -1,6 +1,16 @@
 import React from 'react';
 import Shell from 'layouts/Shell';
 import Footer from 'modules/Footer';
+import imgRetreat01 from 'images/retreats/2019/winter/01.jpg';
+import imgRetreat02 from 'images/retreats/2019/winter/02.jpg';
+import imgRetreat03 from 'images/retreats/2019/winter/03.jpg';
+import imgRetreat04 from 'images/retreats/2019/winter/04.jpg';
+import imgRetreat05 from 'images/retreats/2019/winter/05.jpg';
+import imgRetreat06 from 'images/retreats/2019/winter/06.jpg';
+import imgRetreat07 from 'images/retreats/2019/winter/07.jpg';
+import imgRetreat08 from 'images/retreats/2019/winter/08.jpg';
+import imgRetreat09 from 'images/retreats/2019/winter/09.jpg';
+
 import Link from 'gatsby-link';
 
 const RetreatWinter2019 = () => (
@@ -24,16 +34,44 @@ const RetreatWinter2019 = () => (
           </div>
         </div>
 
-        <section className="testimonial testimonial--retreat">
-          <div className="container">
-            <div className="row">
-              <div className="col-2" />
-              <div className="col-8">
-                <h4 className="caption-1">Photos coming soon</h4>
-              </div>
-            </div>
+        <div className="row">
+          <div className="col-4">
+            <img src={imgRetreat01} className="past-reatreat-img" />
           </div>
-        </section>
+          <div className="col-8">
+            <img src={imgRetreat02} className="past-reatreat-img" />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-4">
+            <img src={imgRetreat03} className="past-reatreat-img" />
+          </div>
+          <div className="col-4">
+            <img src={imgRetreat04} className="past-reatreat-img" />
+          </div>
+          <div className="col-4">
+            <img src={imgRetreat05} className="past-reatreat-img" />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-12">
+            <img src={imgRetreat06} className="past-reatreat-img" />
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-3">
+            <img src={imgRetreat07} className="past-reatreat-img" />
+          </div>
+          <div className="col-4">
+            <img src={imgRetreat08} className="past-reatreat-img" />
+          </div>
+          <div className="col-5">
+            <img src={imgRetreat09} className="past-reatreat-img" />
+          </div>
+        </div>
 
       </div>
 
