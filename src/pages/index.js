@@ -54,6 +54,20 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
+
+        <div className="container hero-images-container">
+          <div className="row">
+            <div className="col-5">
+              <img src={imgHero01} className="hidden-sm" />
+            </div>
+            <div className="col-7">
+              <div className="hero-shape-wrapper">
+                <img src={imgHeroShape} className="hero-shape" />
+                <img src={imgHero02} />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="description">
