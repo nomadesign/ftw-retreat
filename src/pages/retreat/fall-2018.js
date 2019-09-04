@@ -1,7 +1,6 @@
 import React from 'react';
 import Shell from 'layouts/Shell';
 import Footer from 'modules/Footer';
-import Link from 'gatsby-link';
 import imgRetreat01 from 'images/retreats/2018/fall/01.jpg';
 import imgRetreat02 from 'images/retreats/2018/fall/02.jpg';
 import imgRetreat03 from 'images/retreats/2018/fall/03.jpg';
@@ -16,18 +15,13 @@ import imgRetreat11 from 'images/retreats/2018/fall/11.jpg';
 import imgRetreat12 from 'images/retreats/2018/fall/12.jpg';
 import imgRetreat13 from 'images/retreats/2018/fall/13.jpg';
 import imgTestimonialLara from 'images/testimonial/lara.png';
-import imgTestimonialBersabel from 'images/testimonial/bersabel.png';
-import imgTestimonialSaron from 'images/testimonial/saron.png';
 import imgTestimonialAmy from 'images/testimonial/amy.png';
 import imgTestimonialLaraShape from 'images/testimonial/lara-shape.svg';
-import imgTestimonialBersabelShape from 'images/testimonial/bersabel-shape.svg';
-import imgTestimonialSaronShape from 'images/testimonial/saron-shape.svg';
 import imgTestimonialAmyShape from 'images/testimonial/amy-shape.svg';
 
 const RetreatFall2018 = () => (
   <Shell>
     <section className="past-retreat">
-
       <div className="container">
         <div className="row">
           <div className="col-1" />
@@ -40,7 +34,12 @@ const RetreatFall2018 = () => (
           <div className="col-2" />
           <div className="col-8">
             <p className="subhead-2">
-              As the striking autumn colors take over the peaks of the Laurentian Mountains, we gathered in the slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks. In the mornings, we went for hikes in the forest and took gondola rides to the summit to see the foliage. The afternoons were dedicated to writing, knitting, napping, reading, coloring and connecting with each other. We left learned how valuable it is to surround ourselves with a community of women doing similar work, and came home with a great sense of inspiration and courage.
+              As the striking autumn colors take over the peaks of the Laurentian Mountains, we gathered in the
+              slopeside house outside of Montréal with a sun deck, a hot tub, and plenty of nooks. In the mornings, we
+              went for hikes in the forest and took gondola rides to the summit to see the foliage. The afternoons were
+              dedicated to writing, knitting, napping, reading, coloring and connecting with each other. We left learned
+              how valuable it is to surround ourselves with a community of women doing similar work, and came home with
+              a great sense of inspiration and courage.
             </p>
           </div>
         </div>
@@ -66,7 +65,6 @@ const RetreatFall2018 = () => (
           </div>
         </div>
 
-
         <section className="testimonial testimonial--retreat">
           <div className="container">
             <div className="row">
@@ -74,7 +72,8 @@ const RetreatFall2018 = () => (
               <div className="col-8">
                 <div className="testimonial-right">
                   <p className="title-1">
-                    “FTW Retreat was the perfect time and space to be creative (I shipped the first draft of my book!), to revel in some stillness in nature, and to learn from other boss women.”
+                    “FTW Retreat was the perfect time and space to be creative (I shipped the first draft of my book!),
+                    to revel in some stillness in nature, and to learn from other boss women.”
                   </p>
                   <div className="media">
                     <img src={imgTestimonialLaraShape} className="testimonial-shape testimonial-shape--lara" />
@@ -89,7 +88,6 @@ const RetreatFall2018 = () => (
             </div>
           </div>
         </section>
-
 
         <div className="row">
           <div className="col-12">
@@ -109,11 +107,12 @@ const RetreatFall2018 = () => (
         <section className="testimonial testimonial--retreat">
           <div className="container">
             <div className="row">
-              <div className="col-2"></div>
+              <div className="col-2" />
               <div className="col-8">
                 <div className="testimonial-left">
                   <p className="title-1">
-                    “Thanks for crafting a perfect weekend of relaxation, great food and meaningful conversation - I left feeling incredibly recharged and inspired.”
+                    “Thanks for crafting a perfect weekend of relaxation, great food and meaningful conversation - I
+                    left feeling incredibly recharged and inspired.”
                   </p>
                   <div className="media">
                     <img src={imgTestimonialAmyShape} className="testimonial-shape testimonial-shape--amy" />
@@ -128,7 +127,6 @@ const RetreatFall2018 = () => (
             </div>
           </div>
         </section>
-
 
         <div className="row">
           <div className="col-3">
@@ -150,11 +148,8 @@ const RetreatFall2018 = () => (
             <img src={imgRetreat13} className="past-reatreat-img" />
           </div>
         </div>
-
       </div>
-
     </section>
-
 
     <Footer showRegistration="true" />
   </Shell>
