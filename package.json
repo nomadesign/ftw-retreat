@@ -1,32 +1,41 @@
 {
   "name": "ftw-retreat",
+  "description": "A 5-day intimate retreat for women leaders in tech. FTW Retreat is now part of Elpha.",
   "version": "0.0.1",
   "author": "Leslie Passante <leslie.passante@gmail.com>; Victor Coulon <vic.coulon@gmail.com>",
   "dependencies": {
-    "gatsby": "~2.0.12",
-    "gatsby-link": "~2.0.2",
-    "gatsby-plugin-google-analytics": "~2.0.6",
-    "gatsby-plugin-react-helmet": "~3.0.0",
-    "gatsby-plugin-sass": "~2.0.1",
+    "gatsby": "~2.0.120",
+    "gatsby-link": "~2.0.17",
+    "gatsby-plugin-google-analytics": "~2.0.21",
+    "gatsby-plugin-react-helmet": "~3.0.12",
+    "gatsby-plugin-sass": "~2.0.13",
     "instafeed.js": "~1.4.1",
-    "node-sass": "~4.9.3",
+    "node-sass": "~4.9.4",
     "react": "~16.5.2",
     "react-dom": "~16.5.2",
-    "react-helmet": "~5.2.0",
+    "react-helmet": "~5.2.1",
     "react-mailchimp-subscribe": "~2.0.2",
     "smooth-scroll": "^14.2.1",
-    "uuid": "~3.3.2"
-  },
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "start": "gatsby develop --https",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "uuid": "~3.3.3"
   },
   "devDependencies": {
     "dotenv": "~6.0.0",
+    "eslint": "~6.1.0",
+    "eslint-config-prettier": "~6.0.0",
+    "eslint-plugin-prettier": "~3.1.0",
+    "eslint-plugin-react": "~7.14.3",
+    "eslint-plugin-react-hooks": "~1.6.1",
     "prettier": "~1.14.3"
+  },
+  "homepage": "https://forthewomenretreat.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write 'src/**/*.js'",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "serve": "gatsby serve",
+    "start": "gatsby develop --https",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
