@@ -421,10 +421,7 @@ class Book extends React.Component {
         productSet: { styles: { products: { '@media (min-width: 601px)': { 'margin-left': '-20px' } } } }
       }
     });
-
   }
-
-
 
   render() {
     return (

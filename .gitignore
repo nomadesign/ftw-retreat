@@ -1,4 +1,7 @@
 # Project dependencies
+.env
+.env.development
+.env.production
 .cache
 node_modules
 yarn-error.log
